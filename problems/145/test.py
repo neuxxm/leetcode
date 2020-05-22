@@ -6,7 +6,7 @@
 #         self.right = None
 
 class Solution(object):
-    def preorderTraversal(self, root):
+    def postorderTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -19,12 +19,12 @@ class Solution(object):
         while len(q) > 0:
             t = q.pop()
             if t:
+                q.append(t)
+                q.append(None)
                 if t.right:
                     q.append(t.right)
                 if t.left:
                     q.append(t.left)
-                q.append(t)
-                q.append(None)
             else:
                 t = q.pop()
                 r.append(t.val)
