@@ -1,6 +1,7 @@
 # leetcode
 ## 题号序
 - 5.22 [94](./problems/94/test.py)
+- 5.23 [98](./problems/98/test.py)
 - 5.22 [102](./problems/102/test.py)
 - 5.22 [103](./problems/103/test.py)
 - 5.22 [105](./problems/105/test.py)
@@ -28,3 +29,4 @@
 - 5.23 [1028](./problems/1028/test.py)
 - 5.23 [1008](./problems/1008/test.py)
 - 5.23 [interv.33](./problems/interv.33/test.py)
+- 5.23 [98](./problems/98/test.py)
