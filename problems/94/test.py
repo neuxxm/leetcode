@@ -11,14 +11,14 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-		if root == None:
-			return []
-		q = []
+        if root == None:
+            return []
+        q = []
         q.append(root)
-        r = []
+        rs = []
         while len(q) > 0:
             t = q.pop()
-            if t:
+            if t != None:
                 if t.right:
                     q.append(t.right)
                 q.append(t)
@@ -27,5 +27,5 @@ class Solution(object):
                     q.append(t.left)
             else:
                 t = q.pop()
-                r.append(t.val)
-        return r
+                rs.append(t.val)
+        return rs
