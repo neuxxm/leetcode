@@ -11,21 +11,15 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        if root == None:
-            return []
         q = []
-        q.append(root)
-        rs = []
-        while len(q) > 0:
-            t = q.pop()
-            if t != None:
-                if t.right:
-                    q.append(t.right)
-                q.append(t)
-                q.append(None)
-                if t.left:
-                    q.append(t.left)
-            else:
-                t = q.pop()
-                rs.append(t.val)
-        return rs
+        cur = root
+        r = []
+        while cur or len(q) > 0:
+            while cur:
+                q.append(cur)
+                cur = cur.left
+            if len(q) > 0:
+                cur = q.pop()
+                r.append(cur.val)
+                cur = cur.right
+        return r
