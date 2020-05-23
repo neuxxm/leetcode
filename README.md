@@ -1,5 +1,6 @@
 # leetcode
 ## 题号序
+- 5.23 [76](./problems/76/test.py)
 - 5.22 [94](./problems/94/test.py)
 - 5.23 [98](./problems/98/test.py)
 - 5.23 [99](./problems/99/test.py)
@@ -40,3 +41,4 @@
 17. 5.23 [429](./problems/429/test.py)
 18. 5.23 [589](./problems/589/test.py)
 19. 5.23 [590](./problems/590/test.py)
+20. 5.23 [76](./problems/76/test.py)
