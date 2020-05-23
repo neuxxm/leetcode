@@ -10,6 +10,7 @@
 - 5.22 [145](./problems/145/test.py)
 - 5.23 [889](./problems/889/test.py)
 - 5.22 [987](./problems/987/test.py)
+- 5.23 [1008](./problems/1008/test.py)
 - 5.23 [1028](./problems/1028/test.py)
 
 ## 时间序
@@ -24,3 +25,4 @@
 - 5.23 [889](./problems/889/test.py)
 - 5.23 [106](./problems/106/test.py)
 - 5.23 [1028](./problems/1028/test.py)
+- 5.23 [1008](./problems/1008/test.py)
