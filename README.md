@@ -4,6 +4,7 @@
 - 5.22 [94](./problems/94/test.py)
 - 5.23 [98](./problems/98/test.py)
 - 5.23 [99](./problems/99/test.py)
+- 5.24 [101](./problems/101/test.py)
 - 5.22 [102](./problems/102/test.py)
 - 5.22 [103](./problems/103/test.py)
 - 5.22 [105](./problems/105/test.py)
@@ -74,3 +75,4 @@
 34. 5.24 [498](./problems/498/test.py)
 35. 5.24 [1424](./problems/1424/test.py)
 36. 5.24 [814](./problems/814/test.py)
+37. 5.24 [101](./problems/101/test.py)
