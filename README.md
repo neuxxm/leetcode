@@ -23,6 +23,10 @@
 - 5.23 [interv.07](./problems/interv.07/test.py)
 - 5.23 [interv.33](./problems/interv.33/test.py)
 - 5.23 [interv.04.09](./problems/interv.04.09/test.py)
+- 5.24 [5416](./contest/5416/test.py)
+- 5.24 [5417](./contest/5417/test.py)
+- 5.24 [5418](./contest/5418/test.py)
+- 5.24 [5419](./contest/5419/test.py)
 
 ## 时间序
 1. 5.22 [105](./problems/105/test.py)
@@ -48,3 +52,7 @@
 21. 5.23 [interv.07](./problems/interv.07/test.py)
 22. 5.24 [110](./problems/110/test.py)
 23. 5.24 [617](./problems/617/test.py)
+24. 5.24 [5416](./contest/5416/test.py)
+25. 5.24 [5417](./contest/5417/test.py)
+26. 5.24 [5418](./contest/5418/test.py)
+27. 5.24 [5419](./contest/5419/test.py)
