@@ -48,6 +48,7 @@
 - 5.25 [993](./problems/993/test.py)
 ---
 - 5.23 [1008](./problems/1008/test.py)
+- 5.27 [1022](./problems/1022/test.py)
 - 5.23 [1028](./problems/1028/test.py)
 ---
 - 5.24 [1104](./problems/1104/test.py)
@@ -131,3 +132,4 @@
 56. 5.27 [interv.32-II](./problems/interv/interv.32-II/test.py)
 57. 5.27 [515](./problems/515/test.py)
 58. 5.27 [113](./problems/113/test.py)
+59. 5.27 [1022](./problems/1022/test.py)
