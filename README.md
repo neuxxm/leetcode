@@ -157,3 +157,4 @@
 69. 5.28 [interv.32-I](./problems/interv/interv.32-I/test.py)
 70. 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
 71. 5.28 [interv.32-III](./problems/interv/interv.32-III/test.py)
+72. 5.28 [559](./problems/559/test.py)
