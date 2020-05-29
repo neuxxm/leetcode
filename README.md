@@ -79,6 +79,7 @@
 - 5.24 [interv.55-II](./problems/interv/interv.55-II/test.py)
 - 5.28 [interv.58-II](./problems/interv/interv.58-II/test.py)
 - 5.28 [interv.68-II](./problems/interv/interv.68-II/test.py)
+- 5.29 [interv.01.04](./problems/interv/interv.01.04/test.py)
 - 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
 - 5.27 [interv.04.04](./problems/interv/interv.04.04/test.py)
 - 5.26 [interv.04.05](./problems/interv/interv.04.05/test.py)
@@ -166,3 +167,4 @@
 74. 5.28 [interv.27](./problems/interv/interv.27/test.py)
 75. 5.28 [226](./problems/226/test.py)
 76. 5.28 [interv.54](./problems/interv/interv.54/test.py)
+77. 5.29 [interv.01.04](./problems/interv/interv.01.04/test.py)
