@@ -1,6 +1,7 @@
 # leetcode
 ## 题号序
 - 5.24 [4](./problems/4/test.py)
+- 5.30 [072](./problems/072/test.py)
 - 5.23 [76](./problems/76/test.py)
 - 5.22 [94](./problems/94/test.py)
 - 5.23 [98](./problems/98/test.py)
@@ -174,3 +175,4 @@
 78. 5.29 [198](./problems/198/test.py)
 79. 5.30 [interv.13](./problems/interv/interv.13/test.py)
 80. 5.30 [200](./problems/200/test.py)
+81. 5.30 [072](./problems/072/test.py)
