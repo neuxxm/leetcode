@@ -4,19 +4,19 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#19:37-19:43
-def f(p1, p2):
-    if p1 == None and p2 != None:
-        return False
-    if p1 != None and p2 == None:
-        return False
-    if p1 == None and p2 == None:
+#18:33-18:40
+def f(x, y):
+    if x == None and y == None:
         return True
-    if p1.val != p2.val:
+    if x and y == None:
         return False
-    if not f(p1.left, p2.right):
+    if x == None and y:
         return False
-    if not f(p1.right, p2.left):
+    if x.val != y.val:
+        return False
+    if not f(x.left, y.right):
+        return False
+    if not f(x.right, y.left):
         return False
     return True
 class Solution(object):
