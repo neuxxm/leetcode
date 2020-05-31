@@ -34,6 +34,7 @@
 - 5.27 [257](./problems/257/test.py)
 ---
 - 5.23 [429](./problems/429/test.py)
+- 5.31 [438](./problems/438/test.py)
 - 5.24 [498](./problems/498/test.py)
 ---
 - 5.28 [513](./problems/513/test.py)
@@ -186,3 +187,4 @@
 85. 5.31 [003](./problems/003/test.py)
 86. 5.31 [1248](./problems1k/1248/test.py)
 87. 5.31,5.23 [076](./problems/076/test.py)
+87. 5.31 [438](./problems/438/test.py)
