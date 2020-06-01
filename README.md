@@ -99,6 +99,7 @@
 - 5.28 [interv.34](./problems/interv/interv.34/test.py)
 - 6.1 [interv.51](./problems/interv/interv.51/test.bit.py) +2
 - 5.28 [interv.54](./problems/interv/interv.54/test.py)
+- 6.1 [interv.57](./interv/interv.57/test.py)
 - 5.24 [interv.55-I](./problems/interv/interv.55-I/test.py)
 - 5.24 [interv.55-II](./problems/interv/interv.55-II/test.py)
 - 5.28 [interv.58-II](./problems/interv/interv.58-II/test.py)
@@ -217,3 +218,4 @@
 99. 6.1 [1154](./problems1k/1154/test.py)
 100. 6.1 [762](./problems/762/test.py)
 101. 6.1 [interv.10.01](./interv/interv.10.01/test.py)
+102. 6.1 [interv.57](./interv/interv.57/test.py)
