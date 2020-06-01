@@ -25,6 +25,7 @@
 - 5.27 [129](./problems/129/test.py)
 - 5.22 [144](./problems/144/test.py)
 - 5.22 [145](./problems/145/test.py)
+- 6.1 [155](./problems/155/test.py) +1
 - 5.29 [198](./problems/198/test.py)
 - 5.30 [200](./problems/200/test.py)
 ---
@@ -198,3 +199,4 @@
 90. 6.1 [912](./problems/912/test.py) +3
 91. 6.1 [interv.51](./problems/interv/interv.51/test.bit.py) +2
 92. 6.1 [493](./problems/493/test.py)
+93. 6.1 [155](./problems/155/test.py) +1
