@@ -79,6 +79,8 @@
 ---
 - 5.24 [1424](./problems/1424/test.py)
 - 6.1 [1431](./problems/1431/test.py)
+- 5.30 [1460](./contest/contest.0530/1460/test.py)
+- 5.30 [1462](./contest/contest.0530/1462/test.py)
 ---
 - 5.23 [interv.07](./problems/interv/interv.07/test.py)
 - 5.30 [interv.13](./problems/interv/interv.13/test.py)
@@ -195,8 +197,10 @@
 88. 5.31 [567](./problems/567/test.py)
 88. 5.31,5.24 [101](./problems/101/test.py)
 88. 5.31,5.24 [interv.28](./problems/interv/interv.28/test.py)
-90. 6.1 [1431](./problems/1431/test.py)
+89. 6.1 [1431](./problems/1431/test.py)
 90. 6.1 [912](./problems/912/test.py) +3
 91. 6.1 [interv.51](./problems/interv/interv.51/test.bit.py) +2
 92. 6.1 [493](./problems/493/test.py)
 93. 6.1 [155](./problems/155/test.py) +1
+94. 5.30 [1460](./contest/contest.0530/1460/test.py)
+95. 5.30 [1462](./contest/contest.0530/1462/test.py)
