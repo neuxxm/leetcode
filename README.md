@@ -32,6 +32,7 @@
 ---
 - 5.30 [221](./problems/221/test.py)
 - 5.27 [222](./problems/222/test.py)
+- 6.2 [225](./problems/225/test.py)
 - 5.28 [226](./problems/226/test.py)
 - 5.27 [257](./problems/257/test.py)
 ---
@@ -225,3 +226,4 @@
 103. 6.2 [169](./problems/169/test.py)
 104. 6.2 [interv.01.06](./interv/interv.01.06/test.py)
 105. 6.2 [interv.64](./interv/interv.64/test.py)
+106. 6.2 [225](./problems/225/test.py)
