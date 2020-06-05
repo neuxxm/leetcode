@@ -4,8 +4,10 @@
 - 5.31 [008](./problems/008/test.py)
 - 6.3 [009](./problems/009/test.py)
 - 6.5 [013](./problems/013/test.py)
+- 6.5 [014](./problems/014/test.py)
 - 6.5 [020](./problems/020/test.py)
 - 6.2,5.16 [025](./problems/025/test.py) +1
+- 6.5 [026](./problems/026/test.py)
 - 6.2 [045](./problems/045/test.py)
 - 6.3 [056](./problems/056/test.py)
 - 5.30 [072](./problems/072/test.py)
@@ -253,4 +255,6 @@
 116. 6.5 [056](./problems/056/test.py)
 117. 6.5 [009](./problems/009/test.py)
 118. 6.5 [013](./problems/013/test.py)
-119. 6.5 [020](./problems/020/test.py)
+119. 6.5 [014](./problems/014/test.py)
+120. 6.5 [020](./problems/020/test.py)
+121. 6.5 [026](./problems/026/test.py)
