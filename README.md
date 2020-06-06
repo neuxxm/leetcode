@@ -89,6 +89,7 @@
 - 5.23 [1008](./problems/1008/test.py)
 - 5.27 [1022](./problems/1022/test.py)
 - 5.23 [1028](./problems/1028/test.py)
+- 6.6 [1032](./problems1k/1032/test.py)
 - 6.5 [1038](./problems/1038/test.py)
 ---
 - 6.2 [1103](./problems1k/1103/test.py)
@@ -273,3 +274,4 @@
 127. 6.6 [258](./problems/258/test.py)
 128. 6.6 [648](./problems/648/test.py)
 129. 5.27 [988](./problems/988/test.py)
+130. 6.6 [1032](./problems1k/1032/test.py)
