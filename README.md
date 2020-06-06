@@ -40,6 +40,7 @@
 - 5.30 [200](./problems/200/test.py)
 ---
 - 6.2 [206](./problems/206/test.py)
+- 6.6 [211](./problems/211/test.py)
 - 6.2,5.30 [221](./problems/221/test.py) +1
 - 5.27 [222](./problems/222/test.py)
 - 6.2 [225](./problems/225/test.py)
@@ -275,3 +276,4 @@
 128. 6.6 [648](./problems/648/test.py)
 129. 5.27 [988](./problems/988/test.py)
 130. 6.6 [1032](./problems1k/1032/test.py)
+131. 6.6 [211](./problems/211/test.py)
