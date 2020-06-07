@@ -143,6 +143,8 @@
 - 6.3 [interv.08.11](./interv/interv.08.11/test.py)
 - 6.1 [interv.10.01](./interv/interv.10.01/test.py)
 ---
+- 6.7 [lcp.01](./lcp/lcp.01/test.py)
+---
 - 5.24 [5416](./contest/5416/test.py)
 - 5.24 [5417](./contest/5417/test.py)
 - 5.24 [5418](./contest/5418/test.py)
@@ -283,3 +285,4 @@
 132. 6.6 [720](./problems/720/test.py)
 133. 6.6 [676](./problems/676/test.py)
 134. 6.6 [064](./problems/064/test.py)
+135. 6.7 [lcp.01](./lcp/lcp.01/test.py)
