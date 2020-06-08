@@ -5,6 +5,7 @@
 - 6.3 [009](./problems/009/test.py)
 - 6.5 [013](./problems/013/test.py)
 - 6.5 [014](./problems/014/test.py)
+- 6.8 [019](./problems/019/test.py)
 - 6.5 [020](./problems/020/test.py)
 - 6.2,5.16 [025](./problems/025/test.py) +1
 - 6.5 [026](./problems/026/test.py)
@@ -288,3 +289,4 @@
 134. 6.6 [064](./problems/064/test.py)
 135. 6.7 [lcp.01](./lcp/lcp.01/test.py)
 136. 6.7 [028](./problems/028/test.py)
+137. 6.8 [019](./problems/019/test.py)
