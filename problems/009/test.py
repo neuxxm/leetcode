@@ -1,33 +1,45 @@
-#13:29
+#17:07-17:22
 class Solution(object):
     def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
         """
-        t = x
-        if t == 0:
-            return True
-        if t < 0:
+        if x < 0:
             return False
-        n = 0
-        while t > 0:
-            n += 1
-            t /= 10
+        if x < 10:
+            return True
+        xt = x
+        l = 0
+        while x > 0:
+            x /= 10
+            l += 1
         q = []
-        i = 0
-        u = n/2
-        t = x
-        while t > 0:
-            z = t%10
-            if i < u:
-                q.append(z)
-            elif (n&1) and i == u:
-                pass
-            else:
-                x = q.pop()
-                if x != z:
-                    return False
-            i += 1
-            t /= 10
+        z = 0
+        mid = l / 2
+        x = xt
+        if (l&1) != 0:
+            while x > 0:
+                t = x%10
+                if z == mid:
+                    pass
+                elif z < mid:
+                    q.append(t)
+                else:
+                    t2 = q.pop()
+                    if t != t2:
+                        return False
+                z += 1
+                x /= 10
+        else:
+            while x > 0:
+                t = x%10
+                if z < mid:
+                    q.append(t)
+                else:
+                    t2 = q.pop()
+                    if t != t2:
+                        return False
+                z += 1
+                x /= 10
         return True
