@@ -95,6 +95,7 @@
 ---
 - 5.24 [814](./problems/814/test.py)
 - 6.3 [820](./problems/820/test.py)
+- 6.14 [844](./problems/844/test.py)
 - 5.28 [872](./problems/872/test.py)
 - 5.23 [889](./problems/889/test.py)
 - 5.28 [897](./problems/897/test.py)
@@ -332,3 +333,4 @@
 156. 6.14 [interv.53-II](./interv/interv.53-II/test.py)
 157. 6.14 [455](./problems/455/test.py)
 158. 6.14 [690](./problems/690/test.py)
+159. 6.14 [844](./problems/844/test.py)
