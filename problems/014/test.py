@@ -1,55 +1,51 @@
+#23:14-23:21
 class Trie:
-    def __init__(self, val):
+    def __init__(self):
         self.sons = [None] * 27
-        self.val = val
-def add(td, s):
+def add(s, x, b, z):
     s += '#'
-    n = len(s)
-    cur = td
-    i = 0
-    while i < n:
-        c = s[i]
-        z = 26 
+    cur = x
+    cnt = 0
+    path = [''] * len(s)
+    lvl = 0
+    for c in s:
+        n = 0
         if c != '#':
-            z = ord(c)-ord('a')
-        if cur.sons[z] != None:
-            cur = cur.sons[z]
-            cur.val += 1
+            n = ord(c)-ord('a')+1
+        if cur.sons[n]:
+            cnt += 1
+            if b:
+                path[lvl] = c
+                lvl += 1
+            pass
         else:
-            cur.sons[z] = Trie(1)
-            cur = cur.sons[z]
-        i += 1
-def dfs(x, lvl, path, r, n):
-    if x.val == n:
-        t = path[:lvl]
-        if len(t) > len(r[0]):
-            r[0] = t
-    for i in xrange(27):
-        if x.sons[i] != None:
-            if i != 26:
-                path[lvl] = chr(ord('a') + i)
-            else:
-                path[lvl] = '#'
-            dfs(x.sons[i], lvl+1, path, r, n)
+            if b and cnt == 0:
+                return False
+            cur.sons[n] = Trie()
+        cur = cur.sons[n]
+    r = ''.join(path)
+    if r.endswith('#'):
+        r = r[:-1]
+    if z[0] == '':
+        z[0] = r
+    elif len(r) < len(z[0]):
+        z[0] = r
+    return True
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
-        td = Trie(0)
+        x = Trie()
         n = len(strs)
-        for s in strs:
-			add(td, s)
-        path = [0] * 100005
-        r = ['']
-        dfs(td, 0, path, r, n)
-        z = ''.join(r[0])
-        if z.endswith('#'):
-            z = z[:-1]
-        return z
-a = ["flower","flow","flight"]
-a = ["dog","racecar","car"]
-a = ["a","a","a"]
-s = Solution()
-print s.longestCommonPrefix(a)
+        if n == 0:
+            return ''
+        if n == 1:
+            return strs[0]
+        z = ['']
+        add(strs[0], x, False, z)
+        for i in xrange(1, n):
+            if add(strs[i], x, True, z) == False:
+                return ""
+        return z[0]
