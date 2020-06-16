@@ -1,13 +1,16 @@
-#20:47
-def merge(i, j, u):
-    if u[i] == i and u[j] == j:
-        t = i
-        if j < i:
-            t = j
-        u[i] = t
-        u[j] = t
+def find(x, u):
+    while u[x] != x:
+        x = u[x]
+    return x
+def merge(x, y, u):
+    x = find(x, u)
+    y = find(y, u)
+    if x == y:
         return
-    merge(u[i], u[j], u)
+    if x < y:
+        u[y] = x
+    else:
+        u[x] = y
 class Solution(object):
     def findCircleNum(self, M):
         """
