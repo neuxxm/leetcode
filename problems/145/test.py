@@ -4,28 +4,28 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+#15:18fail
 class Solution(object):
     def postorderTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
         """
-        if root == None:
-            return []
         q = []
-        q.append(root)
+        p = root
         r = []
-        while len(q) > 0:
-            t = q.pop()
-            if t:
-                q.append(t)
-                q.append(None)
-                if t.right:
-                    q.append(t.right)
-                if t.left:
-                    q.append(t.left)
+        last = None
+        while p or len(q) > 0:
+            if p:
+                q.append(p)
+                p = p.left
             else:
-                t = q.pop()
-                r.append(t.val)
+                p = q[len(q) - 1]
+                if p.right and p.right != last:
+                    p = p.right
+                else:
+                    r.append(p.val)
+                    q.pop()
+                    last = p
+                    p = None
         return r
