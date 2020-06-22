@@ -199,7 +199,7 @@
 - 6.2 [interv.01.06](./interv/interv.01.06/test.py)
 - 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
 - 5.27 [interv.04.04](./problems/interv/interv.04.04/test.py)
-- 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.recur_judge.py)
+- 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.recur_judge.py) +2
 - 5.23 [interv.04.09](./problems/interv/interv.04.09/test.py)
 - 6.14 [interv.08.01](./interv/interv.08.01/test.py)
 - 6.14 [interv.08.10](./interv/interv.08.10/test.py)
@@ -413,4 +413,4 @@
 196. 6.21 [733](./problems/733/test.py)
 197. 6.21 [705](./problems/705/test.py)
 198. 6.22 [171](./problems/171/test.py)
-199. 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.recur_judge.py)
+198. 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.recur_judge.py) +2
