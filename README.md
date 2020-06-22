@@ -112,6 +112,7 @@
 - 6.5 [677](./problems/677/test.py)
 - 6.14 [690](./problems/690/test.py)
 ---
+- 6.22 [703](./problems/703/test.py)
 - 6.21 [705](./problems/705/test.py)
 - 6.6 [720](./problems/720/test.py)
 - 6.21 [721](./problems/721/test.py)
@@ -418,3 +419,4 @@
 198. 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.up_down_bound.py) +3
 199. 6.22 [1373](./problems1k/1373/test.py)
 200. 6.22 [622](./problems/622/test.py)
+201. 6.22 [703](./problems/703/test.py)
