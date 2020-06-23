@@ -213,6 +213,7 @@
 - 6.14 [interv.08.10](./interv/interv.08.10/test.py)
 - 6.3 [interv.08.11](./interv/interv.08.11/test.py)
 - 6.1 [interv.10.01](./interv/interv.10.01/test.py)
+- 6.23 [interv.16.17](./interv/interv.16.17/test.py)
 ---
 - 6.7 [lcp.01](./lcp/lcp.01/test.py)
 ---
@@ -432,3 +433,4 @@
 205. 6.23,4.26 [315](./problems/315/test.py)
 206. 6.23 [687](./problems/687/test.py)
 207. 6.23 [sword.39](./sword/sword.39/test.py)
+208. 6.23 [interv.16.17](./interv/interv.16.17/test.py)
