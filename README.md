@@ -74,6 +74,7 @@
 - 6.2 [225](./problems/225/test.py)
 - 5.28 [226](./problems/226/test.py)
 - 6.5 [231](./problems/231/test.py)
+- 6.23 [240](./problems/240/test.py)
 - 5.27 [257](./problems/257/test.py)
 - 6.6 [258](./problems/258/test.py)
 - 6.16 [292](./problems/292/test.py)
@@ -436,3 +437,4 @@
 207. 6.23 [sword.39](./sword/sword.39/test.py)
 208. 6.23 [interv.16.17](./interv/interv.16.17/test.py)
 209. 6.23 [interv.17.10](./interv/interv.17.10/test.py)
+210. 6.23 [240](./problems/240/test.py)
