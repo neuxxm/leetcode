@@ -1,31 +1,24 @@
-#23:27fail
-import random
-class Solution(object):
-
-    def __init__(self, nums):
-        """
-        :type nums: List[int]
-        """
-        self.a = nums[:]
-        self.n = len(nums)
-
-    def pick(self, target):
-        """
-        :type target: int
-        :rtype: int
-        """
-        cnt = 0
-        z = 0
-        for i in xrange(self.n):
-            if self.a[i] == target:
-                cnt += 1
-                #1000/1001 k/i 1/i
-                t = random.randint(1, cnt)
-                #1/1000 1/k 1
-                if t <= 1:
-                    z = i
-        return z
-
-# Your Solution object will be instantiated and called as such:
-# obj = Solution(nums)
-# param_1 = obj.pick(target)
+#6.25 23:33-23:40
+import random
+class Solution(object):
+    def __init__(self, nums):
+        """
+        :type nums: List[int]
+        """
+        self.a = nums
+    def pick(self, target):
+        """
+        :type target: int
+        :rtype: int
+        """
+        #k=1000, 1000/1001 sample, 1/1000 replace
+        #1/1001 + 1000/1001*999/1000 = 1000/1001
+        ans = 0
+        i = 0
+        for ix,t in enumerate(self.a):
+            if t == target:
+                i += 1
+                r = random.randint(1, i)
+                if r <= 1:
+                    ans = ix
+        return ans
