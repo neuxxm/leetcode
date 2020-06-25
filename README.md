@@ -58,6 +58,7 @@
 - 6.2 [169](./problems/169/test.py)
 - 6.22 [171](./problems/171/test.py)
 - 6.21 [189](./problems/189/test.py)
+- 6.25 [190](./problems/190/test.py)
 - 6.15 [191](./problems/191/test.py)
 - 5.29 [198](./problems/198/test.py)
 - 5.30 [200](./problems/200/test.py)
@@ -448,3 +449,4 @@
 213. 6.24 [022](./problems/022/test.py)
 214. 6.25 [051](./problems/051/test.py)
 215. 6.25 [127](./problems/127/test.py)
+216. 6.25 [190](./problems/190/test.py)
