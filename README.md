@@ -1,4 +1,4 @@
-## 题号序
+# 题号序
 - 5.31 [003](./problems/003/test.py)
 - 5.24 [4](./problems/4/test.py)
 - 5.31 [008](./problems/008/test.py)
@@ -236,7 +236,7 @@
 - 5.24 [5418](./contest/5418/test.py)
 - 5.24 [5419](./contest/5419/test.py)
 ---
-## 时间序
+# 时间序
 1. 5.22 [105](./problems/105/test.py)
 2. 5.22 [144](./problems/144/test.py)
 4. 5.22 [102](./problems/102/test.py)
@@ -456,7 +456,7 @@
 219. 6.25 [478](./problems/478/test.py)
 219. 6.25,6.16 [382](./problems/382/test.py)
 219. 6.25,6.16 [398](./problems/398/test.py)
-## 分类序
-### 蓄水池抽样
+# 分类序
+## 蓄水池抽样
 - 6.25,6.16 [382](./problems/382/test.py)
 - 6.25,6.16 [398](./problems/398/test.py)
