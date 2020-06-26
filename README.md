@@ -1,3 +1,7 @@
+# 分类序
+## 1. 蓄水池抽样
+- 6.25,6.16 [382](./problems/382/test.py)
+- 6.25,6.16 [398](./problems/398/test.py)
 # 题号序
 - 5.31 [003](./problems/003/test.py)
 - 5.24 [4](./problems/4/test.py)
@@ -15,7 +19,7 @@
 - 6.5 [026](./problems/026/test.py)
 - 6.5 [027](./problems/027/test.py)
 - 6.7 [028](./problems/028/test.py)
-- 6.9 [035](./problems/035/test.py)
+- 6.26,6.9 [035](./problems/035/test.py)
 - 6.14 [038](./problems/038/test.py)
 - 6.2 [045](./problems/045/test.py)
 - 6.25 [051](./problems/051/test.py)
@@ -370,7 +374,6 @@
 137. 6.8 [019](./problems/019/test.py)
 138. 6.8 [066](./problems/066/test.py)
 139. 6.8 [interv.57-II](./interv/interv.57-II/test.py)
-140. 6.9 [035](./problems/035/test.py)
 142. 6.9 [interv.46](./interv/interv.46/test.py)
 143. 6.9 [121](./problems/121/test.py)
 143. 6.10,6.5 [009](./problems/009/test.py)
@@ -456,7 +459,4 @@
 219. 6.25 [478](./problems/478/test.py)
 219. 6.25,6.16 [382](./problems/382/test.py)
 219. 6.25,6.16 [398](./problems/398/test.py)
-# 分类序
-## 蓄水池抽样
-- 6.25,6.16 [382](./problems/382/test.py)
-- 6.25,6.16 [398](./problems/398/test.py)
+219. 6.26,6.9 [035](./problems/035/test.py)

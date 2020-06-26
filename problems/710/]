@@ -1,0 +1,31 @@
+#11:54fail
+import random
+def bisearch(a, x):
+    n = len(a)
+    l = 0
+    r = n - 1
+    ans = -1
+    while l < r:
+        m = l + (r-l)/2
+        t = a[m] - m
+        if x < t:
+            r = m-1
+        else:
+            l = m
+    print x, l, r
+class Solution(object):
+    def __init__(self, N, blacklist):
+        """
+        :type N: int
+        :type blacklist: List[int]
+        """
+        self.m = N - len(blacklist)
+        self.bl = sorted(blacklist)
+    def pick(self):
+        """
+        :rtype: int
+        """
+        x = random.randint(0, m-1)
+        bisearch(self.bl, x)
+a = [2,3,7,8]
+bisearch(a, 2)
