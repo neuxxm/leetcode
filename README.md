@@ -231,6 +231,7 @@
 - 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.up_down_bound.py) +3
 - 5.23 [interv.04.09](./problems/interv/interv.04.09/test.py)
 - 6.14 [interv.08.01](./interv/interv.08.01/test.py)
+- 6.27 [interv.08.05](./interv/interv.08.05/test.py)
 - 6.14 [interv.08.10](./interv/interv.08.10/test.py)
 - 6.3 [interv.08.11](./interv/interv.08.11/test.py)
 - 6.1 [interv.10.01](./interv/interv.10.01/test.py)
@@ -482,3 +483,4 @@
 228. 6.26 [692](./problems/692/test.py)
 229. 6.26 [sword.10-I](./sword/sword.10-I/test.py)
 230. 6.26 [sword.10-II](./sword/sword.10-II/test.py)
+231. 6.27 [interv.08.05](./interv/interv.08.05/test.py)
