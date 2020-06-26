@@ -1,21 +1,19 @@
-#11:54fail
+#19:20fail
 import random
 def bisearch(a, x):
-    n = len(a)
     l = 0
-    r = n - 1
+    r = len(a) - 1
     ans = -1
-    while l < r:
-        print x, l, r
-        m = l + (r-l)/2
-        #t = a[m] - m
-        t = a[m]
-        if x <= t:
-            ans = m
-            r = m-1
+    while l <= r:
+        m = (l+r) >> 1
+        t = a[m] - m
+        if x < t:
+            ans = m - 1
+            r = m - 1
         else:
-            l = m+1
-    print 'final', x, ans
+            ans = m
+            l = m + 1
+    return ans
 class Solution(object):
     def __init__(self, N, blacklist):
         """
@@ -23,12 +21,15 @@ class Solution(object):
         :type blacklist: List[int]
         """
         self.m = N - len(blacklist)
-        self.bl = sorted(blacklist)
+        self.a = sorted(blacklist)
     def pick(self):
         """
         :rtype: int
         """
-        x = random.randint(0, m-1)
-        bisearch(self.bl, x)
-a = [2,3,7,8]
-bisearch(a, 1)
+        x = random.randint(0, self.m-1)
+        loc = bisearch(self.a, x)
+        if loc == -1:
+            r = x
+        else:
+            r = x+loc+1
+        return r
