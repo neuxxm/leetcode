@@ -2,6 +2,8 @@
 ## 1. 蓄水池抽样
 - 6.25,6.16 [382](./problems/382/test.py)
 - 6.25,6.16 [398](./problems/398/test.py)
+## 2. 拒绝抽样
+- 6.27,6.25 [478](./problems/478/test.py) +1
 # 题号序
 - 5.31 [003](./problems/003/test.py)
 - 5.24 [4](./problems/4/test.py)
@@ -108,7 +110,7 @@
 - 5.31 [438](./problems/438/test.py)
 - 6.14 [455](./problems/455/test.py)
 - 6.17 [470](./problems/470/test.py)
-- 6.25 [478](./problems/478/test.py)
+- 6.27,6.25 [478](./problems/478/test.py) +1
 - 6.1 [493](./problems/493/test.py)
 - 5.24 [498](./problems/498/test.py)
 ---
@@ -472,7 +474,6 @@
 217. 6.25 [141](./problems/141/test.py)
 217. 6.25,5.31,5.23 [076](./problems/076/test.py)
 218. 6.25 [sword.48](./sword/sword.48/test.py)
-219. 6.25 [478](./problems/478/test.py)
 219. 6.25,6.16 [382](./problems/382/test.py)
 219. 6.25,6.16 [398](./problems/398/test.py)
 219. 6.26,6.9 [035](./problems/035/test.py) +1
@@ -492,3 +493,4 @@
 233. 6.27 [344](./problems/344/test.py)
 234. 6.27 [interv.17.22](./interv/interv.17.22/test.py)
 235. 6.27 [706](./problems/706/test.py)
+235. 6.27,6.25 [478](./problems/478/test.py) +1
