@@ -240,6 +240,7 @@
 - 6.23 [interv.16.17](./interv/interv.16.17/test.py)
 - 6.23 [interv.17.10](./interv/interv.17.10/test.py)
 - 6.26 [interv.17.18](./interv/interv.17.18/test.py)
+- 6.27 [interv.17.22](./interv/interv.17.22/test.py)
 ---
 - 6.7 [lcp.01](./lcp/lcp.01/test.py)
 ---
@@ -488,3 +489,4 @@
 231. 6.27 [interv.08.05](./interv/interv.08.05/test.py)
 232. 6.27 [1338](./problems1k/1338/test.py)
 233. 6.27 [344](./problems/344/test.py)
+234. 6.27 [interv.17.22](./interv/interv.17.22/test.py)
