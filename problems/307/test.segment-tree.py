@@ -1,27 +1,22 @@
-#18:41fail
-def build(a, l, r, ix, d):
+#15:26-15:51
+def build(a, l, r, ix, nums):
     if l == r:
-        a[ix] = d[l]
+        a[ix] = nums[l]
         return
-    m = (l+r)>>1
-    build(a, l, m, ix*2+1, d)
-    build(a, m+1, r, ix*2+2, d)
+    m = (l+r) >> 1
+    build(a, l, m, ix*2+1, nums)
+    build(a, m+1, r, ix*2+2, nums)
     a[ix] = a[ix*2+1] + a[ix*2+2]
-def update2(a, l, r, ix, dx, val):
-    if l == r:
-        #print 'hit', l
-        #print 'a[%d]=%d'%(ix, val)
+def upd(a, l, r, ix, x, val):
+    if l==x and r==x:
         a[ix] = val
         return
-    m = (l+r)>>1
-    if dx <= m:
-        #print 'find in', l, m
-        update2(a, l, m, ix*2+1, dx, val)
+    m = (l+r) >> 1
+    if x <= m:
+        upd(a, l, m, ix*2+1, x, val)
     else:
-        #print 'find in', m+1, r
-        update2(a, m+1, r, ix*2+2, dx, val)
+        upd(a, m+1, r, ix*2+2, x, val)
     a[ix] = a[ix*2+1] + a[ix*2+2]
-    #print 'a[%d]=a[%d]+a[%d]=%d+%d=%d'%(ix, ix*2+1, ix*2+2, a[ix*2+1], a[ix*2+2], a[ix])
 def query(a, l, r, ix, x, y):
     if x<=l and r<=y:
         return a[ix]
@@ -29,22 +24,20 @@ def query(a, l, r, ix, x, y):
     ans = 0
     if x <= m:
         ans += query(a, l, m, ix*2+1, x, y)
-    if y >= m+1:
+    if y > m:
         ans += query(a, m+1, r, ix*2+2, x, y)
     return ans
 class NumArray(object):
-
     def __init__(self, nums):
         """
         :type nums: List[int]
         """
-        self.n = len(nums)
+        n = len(nums)
+        self.a = [0] * (n*4)
+        self.n = n
         if self.n == 0:
             return
-        self.a = [0] * (self.n*4)
-        build(self.a, 0, self.n-1, 0, nums)
-        #print self.n, self.a
-
+        build(self.a, 0, n-1, 0, nums)
     def update(self, i, val):
         """
         :type i: int
@@ -53,9 +46,7 @@ class NumArray(object):
         """
         if self.n == 0:
             return
-        update2(self.a, 0, self.n-1, 0, i, val)
-        #print self.a
-
+        upd(self.a, 0, self.n-1, 0, i, val)      
     def sumRange(self, i, j):
         """
         :type i: int
@@ -65,8 +56,3 @@ class NumArray(object):
         if self.n == 0:
             return 0
         return query(self.a, 0, self.n-1, 0, i, j)
-
-# Your NumArray object will be instantiated and called as such:
-# obj = NumArray(nums)
-# obj.update(i,val)
-# param_2 = obj.sumRange(i,j)
