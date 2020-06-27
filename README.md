@@ -186,6 +186,7 @@
 - 6.17 [1288](./problems1k/1288/test.py)
 ---
 - 5.28 [1302](./problems/1302/test.py)
+- 6.27 [1338](./problems1k/1338/test.py)
 - 6.15 [1356](./problems1k/1356/test.py)
 - 5.24 [1361](./problems/1361/test.py)
 - 5.25 [1367](./problems/1367/test.py)
@@ -484,3 +485,4 @@
 229. 6.26 [sword.10-I](./sword/sword.10-I/test.py)
 230. 6.26 [sword.10-II](./sword/sword.10-II/test.py)
 231. 6.27 [interv.08.05](./interv/interv.08.05/test.py)
+232. 6.27 [1338](./problems1k/1338/test.py)
