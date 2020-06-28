@@ -1,12 +1,12 @@
-#23:45fail
-def f(left, right, path, z):
-    if left == 0 and right == 0:
+#21:39-21:43
+def f(left, right, n, path, z):
+    if left == n and right == n:
         z.append(path)
         return
-    if left > 0:
-        f(left-1, right, path+'(', z)
-    if left < right:
-        f(left, right-1, path+')', z)
+    if left < n:
+        f(left+1, right, n, path+'(', z)
+    if right < left:
+        f(left, right+1, n, path+')', z)
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -14,5 +14,5 @@ class Solution(object):
         :rtype: List[str]
         """
         z = []
-        f(n, n, '', z)
+        f(0, 0, n, '', z)
         return z
