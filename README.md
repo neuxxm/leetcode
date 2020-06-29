@@ -257,6 +257,7 @@
 - 6.7 [lcp.01](./lcp/lcp.01/test.py)
 ---
 - 6.28 [sword.03](./sword/sword.03/test.py)
+- 6.29 [sword.06](./sword/sword.06/test.py)
 - 6.26 [sword.10-I](./sword/sword.10-I/test.py)
 - 6.26 [sword.10-II](./sword/sword.10-II/test.py)
 - 6.29 [sword.15](./sword/sword.15/test.py)
@@ -515,3 +516,4 @@
 244. 6.28 [062](./problems/062/test.py)
 244. 6.29,6.15 [215](./problems/215/test.py)
 245. 6.29 [sword.15](./sword/sword.15/test.py)
+246. 6.29 [sword.06](./sword/sword.06/test.py)
