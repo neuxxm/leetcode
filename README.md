@@ -58,6 +58,7 @@
 - 5.27 [112](./problems/112/test.py)
 - 5.27 [113](./problems/113/test.py)
 - 6.21 [118](./problems/118/test.py)
+- 6.30 [119](./problems/119/test.py)
 - 6.9 [121](./problems/121/test.py)
 - 6.19 [125](./problems/125/test.py)
 - 6.25 [127](./problems/127/test.py)
@@ -523,3 +524,4 @@
 247. 6.30 [sword.09](./sword/sword.09/test.py)
 248. 6.30 [sword.24](./sword/sword.24/test.py)
 249. 6.30 [093](./problems/093/test.py)
+250. 6.30 [119](./problems/119/test.py)
