@@ -222,6 +222,7 @@
 - 5.31 [1464](./contest/contest.0531/1464/test.py)
 - 5.31 [1465](./contest/contest.0531/1465/test.py)
 - 5.31 [1466](./contest/contest.0531/1466/test.py)
+- 7.4 [1491](./problems1k/1491/test.py)
 ---
 - 5.23 [interv.07](./problems/interv/interv.07/test.py)
 - 5.30 [interv.13](./problems/interv/interv.13/test.py)
@@ -541,3 +542,4 @@
 256. 7.3,5.27 [938](./problems/938/test.py)
 257. 7.4 [032](./problems/032/test.py)
 258. 7.4 [983](./problems/983/test.py)
+259. 7.4 [1491](./problems1k/1491/test.py)
