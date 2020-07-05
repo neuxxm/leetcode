@@ -75,11 +75,12 @@
 - 6.14 [167](./problems/167/test.py)
 - 6.2 [169](./problems/169/test.py)
 - 6.22 [171](./problems/171/test.py)
-- 7.5 [175](./sql/175/test.py)
+- 7.5 [175](./sql/175/test.sql)
 - 6.21 [189](./problems/189/test.py)
 - 6.25 [190](./problems/190/test.py)
 - 6.15 [191](./problems/191/test.py)
-- 7.5 [195](./shell/195/test.py)
+- 7.5 [193](./shell/193/test.sh)
+- 7.5 [195](./shell/195/test.sh)
 - 5.29 [198](./problems/198/test.py)
 - 5.30 [200](./problems/200/test.py)
 ---
@@ -565,5 +566,6 @@
 267. 7.5 [290](./problems/290/test.py)
 268. 7.5 [263](./problems/263/test.py)
 269. 7.5 [237](./problems/237/test.py) +1
-270. 7.5 [175](./sql/175/test.py)
-271. 7.5 [195](./shell/195/test.py)
+270. 7.5 [175](./sql/175/test.sql)
+271. 7.5 [195](./shell/195/test.sh)
+272. 7.5 [193](./shell/193/test.sh)
