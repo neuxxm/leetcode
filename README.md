@@ -8,6 +8,7 @@
 # 题号序
 - 5.31 [003](./problems/003/test.py)
 - 5.24 [4](./problems/4/test.py)
+- 7.5 [005](./problems/005/test.py) +1
 - 5.31 [008](./problems/008/test.py)
 - 6.10,6.5 [009](./problems/009/test.py)
 - 6.5 [013](./problems/013/test.py)
@@ -547,3 +548,4 @@
 259. 7.4 [1491](./problems1k/1491/test.py)
 260. 7.4 [812](./problems/812/test.py) +1
 261. 7.5 [044](./problems/044/test.py) +1
+262. 7.5 [005](./problems/005/test.py) +1
