@@ -79,6 +79,7 @@
 - 6.21 [189](./problems/189/test.py)
 - 6.25 [190](./problems/190/test.py)
 - 6.15 [191](./problems/191/test.py)
+- 7.5 [195](./shell/195/test.py)
 - 5.29 [198](./problems/198/test.py)
 - 5.30 [200](./problems/200/test.py)
 ---
@@ -565,3 +566,4 @@
 268. 7.5 [263](./problems/263/test.py)
 269. 7.5 [237](./problems/237/test.py) +1
 270. 7.5 [175](./sql/175/test.py)
+271. 7.5 [195](./shell/195/test.py)
