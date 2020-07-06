@@ -33,6 +33,7 @@
 - 6.3 [056](./problems/056/test.py)
 - 6.23 [058](./problems/058/test.py)
 - 6.28 [062](./problems/062/test.py)
+- 7.6 [063](./problems/063/test.py)
 - 6.6 [064](./problems/064/test.py)
 - 6.8 [066](./problems/066/test.py)
 - 6.23,6.14 [067](./problems/067/test.py)
@@ -571,3 +572,4 @@
 271. 7.5 [195](./shell/195/test.sh)
 272. 7.5 [193](./shell/193/test.sh)
 273. 7.5 [168](./problems/168/test.py)
+274. 7.6 [063](./problems/063/test.py)
