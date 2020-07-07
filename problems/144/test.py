@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+#16:14-16:17
 class Solution(object):
     def preorderTraversal(self, root):
         """
@@ -18,14 +18,17 @@ class Solution(object):
         r = []
         while len(q) > 0:
             t = q.pop()
-            if t:
-                if t.right:
-                    q.append(t.right)
-                if t.left:
-                    q.append(t.left)
-                q.append(t)
-                q.append(None)
-            else:
+            if t == None:
                 t = q.pop()
                 r.append(t.val)
+            else:
+                if t.right == None and t.left == None:
+                    r.append(t.val)
+                else:
+                    if t.right:
+                        q.append(t.right)
+                    if t.left:
+                        q.append(t.left)
+                    q.append(t)
+                    q.append(None)
         return r

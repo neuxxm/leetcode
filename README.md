@@ -71,7 +71,7 @@
 - 5.27 [129](./problems/129/test.py)
 - 6.28 [139](./problems/139/test.py)
 - 6.25 [141](./problems/141/test.py)
-- 5.22 [144](./problems/144/test.py)
+- 7.7,5.22 [144](./problems/144/test.py) +1
 - 6.16,5.22 [145](./problems/145/test.py) +2
 - 6.1 [155](./problems/155/test.py) +1
 - 7.6 [160](./problems/160/test.py) +1
@@ -306,7 +306,6 @@
 ---
 # 时间序
 1. 5.22 [105](./problems/105/test.py)
-2. 5.22 [144](./problems/144/test.py)
 4. 5.22 [102](./problems/102/test.py)
 5. 5.22 [987](./problems/987/test.py)
 6. 5.22 [103](./problems/103/test.py)
@@ -585,3 +584,4 @@
 279. 7.6 [172](./problems/172/test.py) +1
 280. 7.6 [219](./problems/219/test.py) +1
 280. 7.7,5.27 [112](./problems/112/test.py) +1
+281. 7.7,5.22 [144](./problems/144/test.py) +1
