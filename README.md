@@ -59,7 +59,7 @@
 - 5.27 [109](./problems/109/test.py)
 - 5.24 [110](./problems/110/test.py)
 - 5.27 [111](./problems/111/test.py)
-- 5.27 [112](./problems/112/test.py)
+- 7.7,5.27 [112](./problems/112/test.py) +1
 - 5.27 [113](./problems/113/test.py)
 - 6.21 [118](./problems/118/test.py)
 - 6.30 [119](./problems/119/test.py)
@@ -358,7 +358,6 @@
 58. 5.27 [113](./problems/113/test.py)
 59. 5.27 [1022](./problems/1022/test.py)
 60. 5.27 [129](./problems/129/test.py)
-61. 5.27 [112](./problems/112/test.py)
 62. 5.27 [637](./problems/637/test.py)
 63. 5.28 [interv.58-II](./problems/interv/interv.58-II/test.py)
 64. 5.28 [513](./problems/513/test.py)
@@ -585,3 +584,4 @@
 278. 7.6 [122](./problems/122/test.py) +1
 279. 7.6 [172](./problems/172/test.py) +1
 280. 7.6 [219](./problems/219/test.py) +1
+280. 7.7,5.27 [112](./problems/112/test.py) +1
