@@ -31,6 +31,7 @@
 - 7.5 [044](./problems/044/test.py) +1
 - 6.2 [045](./problems/045/test.py)
 - 7.8 [048](./problems/048/test.py)
+- 7.8 [049](./problems/049/test.py)
 - 6.25 [051](./problems/051/test.py)
 - 6.3 [056](./problems/056/test.py)
 - 6.23 [058](./problems/058/test.py)
@@ -593,3 +594,4 @@
 283. 7.8 [interv.16.11](./interv/interv.16.11/test.py)
 283. 7.8 [011](./problems/011/test.py)
 284. 7.8 [048](./problems/048/test.py)
+285. 7.8 [049](./problems/049/test.py)
