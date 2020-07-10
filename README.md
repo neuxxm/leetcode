@@ -76,6 +76,7 @@
 - 6.25 [141](./problems/141/test.py)
 - 7.7,5.22 [144](./problems/144/test.py) +1
 - 6.16,5.22 [145](./problems/145/test.py) +2
+- 7.10 [152](./problems/152/test.py)
 - 6.1 [155](./problems/155/test.py) +1
 - 7.6 [160](./problems/160/test.py) +1
 - 7.7 [165](./problems/165/test.py)
@@ -607,3 +608,4 @@
 289. 7.8 [289](./problems/289/test.py)
 290. 7.9 [192](./shell/192/test.sh)
 291. 7.9 [interv.17.13](./interv/interv.17.13/test.py)
+292. 7.10 [152](./problems/152/test.py)
