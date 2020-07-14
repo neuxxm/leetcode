@@ -209,6 +209,7 @@
 ---
 - 6.1 [912](./problems/912/test.py) +3
 - 6.21 [922](./problems/922/test.py)
+- 7.14 [932](./problems/932/test.c) +1
 - 6.17 [933](./problems/933/test.py)
 - 7.3,5.27 [938](./problems/938/test.py)
 - 5.26 [958](./problems/958/test.py)
@@ -616,3 +617,4 @@
 294. 7.14,5.24 [1458](./problems1k/1458/test.py)
 295. 7.14 [040](./problems/040/test.py)
 296. 7.14 [sword.25](./sword/sword.25/test.py)
+297. 7.14 [932](./problems/932/test.c) +1
