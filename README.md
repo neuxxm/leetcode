@@ -249,6 +249,10 @@
 - 6.23 [1403](./problems1k/1403/test.py)
 - 5.24 [1424](./problems/1424/test.py)
 - 6.1 [1431](./problems/1431/test.py)
+- 5.24 [5416](./contest/5416/test.py)
+- 5.24 [5417](./contest/5417/test.py)
+- 5.24 [5418](./contest/5418/test.py)
+- 7.14,5.24 [1458](./problems1k/1458/test.py)
 - 5.30 [1460](./contest/contest.0530/1460/test.py)
 - 5.30 [1462](./contest/contest.0530/1462/test.py)
 - 5.31 [1464](./contest/contest.0531/1464/test.py)
@@ -313,11 +317,6 @@
 - 6.20 [sword.42](./sword/sword.42/test.py)
 - 6.25 [sword.48](./sword/sword.48/test.py)
 ---
-- 5.24 [5416](./contest/5416/test.py)
-- 5.24 [5417](./contest/5417/test.py)
-- 5.24 [5418](./contest/5418/test.py)
-- 5.24 [5419](./contest/5419/test.py)
----
 # 时间序
 1. 5.22 [105](./problems/105/test.py)
 4. 5.22 [102](./problems/102/test.py)
@@ -341,7 +340,6 @@
 24. 5.24 [5416](./contest/5416/test.py)
 25. 5.24 [5417](./contest/5417/test.py)
 26. 5.24 [5418](./contest/5418/test.py)
-27. 5.24 [5419](./contest/5419/test.py)
 28. 5.24 [1361](./problems/1361/test.py)
 29. 5.24 [interv.55-II](./problems/interv/interv.55-II/test.py)
 30. 5.24 [563](./problems/563/test.py)
@@ -613,3 +611,4 @@
 292. 7.11,6.1,4.27 [493](./problems/493/test.py) +1
 293. 7.12 [1261](./problems1k/1261/test.py)
 294. 7.12 [697](./problems/697/test.py)
+294. 7.14,5.24 [1458](./problems1k/1458/test.py)

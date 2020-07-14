@@ -1,4 +1,4 @@
-#17:32-17:50
+#13:57-14:15
 class Solution(object):
     def minimumTotal(self, triangle):
         """
@@ -7,18 +7,15 @@ class Solution(object):
         """
         a = triangle
         n = len(a)
-        dp = [float('inf')] * n
-        dp2 = [float('inf')] * n
-        for i in xrange(n):
-            t = a[i][0]
-            if i > 0:
-                t += dp2[0]
-            dp[0] = t
-            t = a[i][i]
-            if i > 0:
-                t += dp2[i-1]
-            dp[i] = t
+        if n == 0:
+            return 0
+        dp = [0] * n
+        dp2 = [0] * n
+        dp[0] = a[0][0]
+        for i in xrange(1, n):
+            dp2[0] = dp[0] + a[i][0]
             for j in xrange(1, i):
-                dp[j] = min(dp2[j-1], dp2[j]) + a[i][j]
-            dp2 = dp[:]
+                dp2[j] = min(dp[j-1], dp[j]) + a[i][j]
+            dp2[i] = dp[i-1] + a[i][i]
+            dp = dp2[:]
         return min(dp)
