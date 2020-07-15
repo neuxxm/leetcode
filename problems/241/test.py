@@ -1,25 +1,30 @@
-#21:53fail
+#15:07
 def f(s):
-    if s.isdigit():
-        return [int(s)]
-    i = 0
     n = len(s)
-    res = []
-    while i < n:
+    b = True
+    z = []
+    for i in xrange(n):
         c = s[i]
-        if s[i] in set(['+', '-', '*']):
-            left = f(s[:i])
-            right = f(s[i+1:])
-            for l in left:
-                for r in right:
-                    if c == '+':
-                        res.append(l + r)
-                    elif c == '-':
-                        res.append(l - r)
-                    elif c == '*':
-                        res.append(l * r)
-        i += 1
-    return res
+        if c == '+' or c == '-' or c == '*':
+            b = False
+            t1 = f(s[:i])
+            t2 = f(s[i+1:])
+            if c == '+':
+                for x in t1:
+                    for y in t2:
+                        z.append(x+y)
+            elif c == '-':
+                for x in t1:
+                    for y in t2:
+                        z.append(x-y)
+            elif c == '*':
+                for x in t1:
+                    for y in t2:
+                        z.append(x*y)
+    if b:
+        return [int(s)]
+    else:
+        return z
 class Solution(object):
     def diffWaysToCompute(self, input):
         """
@@ -28,3 +33,7 @@ class Solution(object):
         """
         s = input
         return f(s)
+a = "2*3-4*5"
+#a = "2-1-1"
+s = Solution()
+print s.diffWaysToCompute(a)
