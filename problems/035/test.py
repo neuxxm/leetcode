@@ -1,4 +1,4 @@
-#13:22-13:59
+#11:52-11:58
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -7,19 +7,19 @@ class Solution(object):
         :rtype: int
         """
         a = nums
+        n = len(a)
         y = target
         l = 0
-        r = len(a) - 1
-        ans = 0
+        r = n-1
+        ans = -1
         while l <= r:
-            m = (l+r) >> 1
-            if y == a[m]:
-                ans = m
-                break
+            m = (l+r)>>1
+            if a[m] == y:
+                return m
             if y < a[m]:
                 ans = m
-                r = m - 1
+                r = m-1
             else:
-                ans = m + 1
-                l = m + 1
+                ans = m+1
+                l = m+1
         return ans
