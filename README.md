@@ -98,7 +98,7 @@
 - 7.9 [192](./shell/192/test.sh)
 - 7.5 [193](./shell/193/test.sh)
 - 7.5 [195](./shell/195/test.sh)
-- 5.29 [198](./problems/198/test.py)
+- 7.18,5.29 [198](./problems/198/test.py)
 - 5.30 [200](./problems/200/test.py)
 ---
 - 6.15 [203](./problems/203/test.py)
@@ -396,7 +396,6 @@
 75. 5.28 [226](./problems/226/test.py)
 76. 5.28 [interv.54](./problems/interv/interv.54/test.py)
 77. 5.29 [interv.01.04](./problems/interv/interv.01.04/test.py)
-78. 5.29 [198](./problems/198/test.py)
 79. 5.30 [interv.13](./problems/interv/interv.13/test.py)
 80. 5.30 [200](./problems/200/test.py)
 81. 5.30 [072](./problems/072/test.py)
@@ -633,4 +632,5 @@
 303. 7.16 [055](./problems/055/test.py)
 303. 7.17,6.26,6.9 [035](./problems/035/test.py) +1
 304. 7.17 [069](./problems/069/test.py) +3
-305. 7.17 [097](./problems/097/test.py) +1
+305. 7.18 [097](./problems/097/test.py) +1
+305. 7.18,5.29 [198](./problems/198/test.py)
