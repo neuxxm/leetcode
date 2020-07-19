@@ -146,6 +146,7 @@
 - 6.23 [327](./problems/327/test.py)
 - 7.6,6.17 [329](./problems/329/test.py) +1
 - 6.30 [342](./problems/342/test.py) +1
+- 7.20 [345](./problems/345/test.c)
 - 6.27 [344](./problems/344/test.py)
 - 6.20 [349](./problems/349/test.py)
 - 6.25,6.16 [382](./problems/382/test.py) +1
@@ -638,3 +639,4 @@
 305. 7.18,5.29 [198](./problems/198/test.py)
 306. 7.19 [1203](./problems1k/1203/test.py)
 307. 7.19 [interv.17.07](./interv/interv.17.07/test.py)
+308. 7.20 [345](./problems/345/test.c)
