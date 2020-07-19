@@ -241,6 +241,7 @@
 - 6.16 [1137](./problems1k/1137/test.py)
 - 6.1 [1154](./problems1k/1154/test.py)
 ---
+- 7.19 [1203](./problems1k/1203/test.py)
 - 6.16 [1232](./problems1k/1232/test.py)
 - 5.31 [1248](./problems1k/1248/test.py)
 - 7.12 [1261](./problems1k/1261/test.py)
@@ -634,3 +635,4 @@
 304. 7.17 [069](./problems/069/test.py) +3
 305. 7.18 [097](./problems/097/test.py) +1
 305. 7.18,5.29 [198](./problems/198/test.py)
+306. 7.19 [1203](./problems1k/1203/test.py)
