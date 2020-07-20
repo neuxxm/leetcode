@@ -272,6 +272,7 @@
 - 5.24 [5416](./contest/5416/test.py)
 - 5.24 [5417](./contest/5417/test.py)
 - 5.24 [5418](./contest/5418/test.py)
+- 7.20 [1446](./problems1k/1446/test.py)
 - 7.14,5.24 [1458](./problems1k/1458/test.py)
 - 5.30 [1460](./contest/contest.0530/1460/test.py)
 - 5.30 [1462](./contest/contest.0530/1462/test.py)
@@ -658,3 +659,4 @@
 315. 7.20 [804](./problems/804/test.py)
 316. 7.20 [917](./problems/917/test.py)
 317. 7.20 [sword.17](./sword/sword.17/test.py)
+318. 7.20 [1446](./problems1k/1446/test.py)
