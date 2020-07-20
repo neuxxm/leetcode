@@ -1,4 +1,4 @@
-#11:28-11:32
+#22:01AC
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -11,14 +11,12 @@ class Solution(object):
         n = len(a)
         l = 0
         r = n-1
-        rs = []
         while l < r:
-            z = a[l] + a[r]
-            if z == y:
-                rs.append(l+1)
-                rs.append(r+1)
-                return rs
-            if z < y:
+            t = a[l] + a[r]
+            if t == y:
+                return [l+1, r+1]
+            elif t < y:
                 l += 1
             else:
                 r -= 1
+        return []
