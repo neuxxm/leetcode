@@ -332,6 +332,7 @@
 - 6.26 [sword.10-I](./sword/sword.10-I/test.py)
 - 6.26 [sword.10-II](./sword/sword.10-II/test.py)
 - 6.29 [sword.15](./sword/sword.15/test.py)
+- 7.20 [sword.17](./sword/sword.17/test.py)
 - 6.30 [sword.24](./sword/sword.24/test.py)
 - 7.14 [sword.25](./sword/sword.25/test.py)
 - 6.23 [sword.39](./sword/sword.39/test.py)
@@ -656,3 +657,4 @@
 314. 7.20 [1078](./problems1k/1078/test.py)
 315. 7.20 [804](./problems/804/test.py)
 316. 7.20 [917](./problems/917/test.py)
+317. 7.20 [sword.17](./sword/sword.17/test.py)
