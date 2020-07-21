@@ -198,6 +198,7 @@
 - 5.25 [662](./problems/662/test.py)
 - 6.6 [676](./problems/676/test.py)
 - 6.5 [677](./problems/677/test.py)
+- 7.21 [682](./problems/682/test.py)
 - 6.23 [687](./problems/687/test.py)
 - 6.14 [690](./problems/690/test.py)
 - 6.26 [692](./problems/692/test.py)
@@ -690,3 +691,4 @@
 331. 7.21 [443](./problems/443/test.py)
 332. 7.21 [448](./problems/448/test.py)
 333. 7.21 [sword.22](./sword/sword.22/test.py)
+334. 7.21 [682](./problems/682/test.py)
