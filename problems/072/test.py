@@ -1,4 +1,4 @@
-#18:34-18:48
+#16:07-16:14
 class Solution(object):
     def minDistance(self, word1, word2):
         """
@@ -6,22 +6,22 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        s1 = word1
-        s2 = word2
-        n = len(s1)
-        m = len(s2)
+        a = word1
+        b = word2
+        n = len(a)
+        m = len(b)
         dp = []
         for i in xrange(n+1):
             l = [0] * (m+1)
             dp.append(l)
-        for i in xrange(m+1):
-            dp[0][i] = i
+        for j in xrange(m+1):
+            dp[0][j] = j
         for i in xrange(n+1):
-            dp[i][0] = i 
+            dp[i][0] = i
         for i in xrange(1, n+1):
             for j in xrange(1, m+1):
-                if s1[i-1] == s2[j-1]:
-                    dp[i][j] = dp[i-1][j-1] 
+                if a[i-1] == b[j-1]:
+                    dp[i][j] = dp[i-1][j-1]
                 else:
-                    dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
+                    dp[i][j] = min(dp[i-1][j-1], dp[i][j-1], dp[i-1][j]) + 1
         return dp[n][m]
