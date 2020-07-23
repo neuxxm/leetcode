@@ -1,4 +1,4 @@
-#22:00-22:04
+#15:47-15:54
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -18,8 +18,8 @@ class Solution(object):
         for j in xrange(1, m):
             dp[0][j] = dp[0][j-1] + a[0][j]
         for i in xrange(1, n):
-            dp[i][0] += dp[i-1][0] + a[i][0]
+            dp[i][0] = dp[i-1][0] + a[i][0]
         for i in xrange(1, n):
             for j in xrange(1, m):
-                dp[i][j] = a[i][j] + min(dp[i][j-1], dp[i-1][j])
+                dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + a[i][j]
         return dp[n-1][m-1]
