@@ -1,4 +1,4 @@
-#17:16
+#7.22 17:16-7.23 20:49
 class MyCircularDeque(object):
     def __init__(self, k):
         """
@@ -21,8 +21,8 @@ class MyCircularDeque(object):
         head = self.head
         tail = self.tail
         r = self.r
-        print a
-        print 'insertFront(%d)'%value, 'h=', head, 't=', tail, 'r=', r
+        #print a
+        #print 'insertFront(%d)'%value, 'h=', head, 't=', tail, 'r=', r
         if self.isEmpty():
             a[0] = value
             self.head += 1
@@ -58,8 +58,8 @@ class MyCircularDeque(object):
         head = self.head
         tail = self.tail
         r = self.r
-        print a
-        print 'insertFront(%d)'%value, 'h=', head, 't=', tail
+        #print a
+        #print 'insertFront(%d)'%value, 'h=', head, 't=', tail
         if self.isEmpty():
             a[0] = value
             self.head += 1
@@ -91,13 +91,14 @@ class MyCircularDeque(object):
         """
         if self.isEmpty():
             return False
-        self.head += 1
-        if self.head == n:
-            self.head = 0
-            self.r = False
         if self.head == self.tail:
             self.head = -1
             self.tail = -1
+            self.r = False
+            return True
+        self.head += 1
+        if self.head == self.n:
+            self.head = 0
             self.r = False
         return True
     def deleteLast(self):
@@ -107,13 +108,14 @@ class MyCircularDeque(object):
         """
         if self.isEmpty():
             return False
-        self.tail -= 1
-        if self.tail == -1:
-            self.tail = n-1
-            self.r = False
-        if self.tail == self.head:
+        if self.head == self.tail:
             self.head = -1
             self.tail = -1
+            self.r = False
+            return True
+        self.tail -= 1
+        if self.tail == -1:
+            self.tail = self.n-1
             self.r = False
         return True
     def getFront(self):
@@ -152,8 +154,3 @@ class MyCircularDeque(object):
             return self.tail + 1 == self.head
         else:
             return self.tail == self.n-1 and self.head == 0
-m = MyCircularDeque(3)
-m.insertLast(1)
-m.insertLast(2)
-m.insertFront(3)
-m.insertFront(4)
