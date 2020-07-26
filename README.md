@@ -146,7 +146,7 @@
 - 7.11,6.23,4.26 [315](./problems/315/test.py) +1
 - 6.3 [322](./problems/322/test.py)
 - 6.23 [327](./problems/327/test.py)
-- 7.6,6.17 [329](./problems/329/test.py) +1
+- 7.26,7.6,6.17 [329](./problems/329/test.py) +1
 - 6.30 [342](./problems/342/test.py) +1
 - 7.20,6.27 [344](./problems/344/test.py) +1
 - 7.20 [345](./problems/345/test.c)
@@ -632,7 +632,6 @@
 272. 7.5 [193](./shell/193/test.sh)
 273. 7.5 [168](./problems/168/test.py)
 274. 7.6 [063](./problems/063/test.py)
-274. 7.6,6.17 [329](./problems/329/test.py) +1
 275. 7.6 [160](./problems/160/test.py) +1
 275. 7.6,6.2 [206](./problems/206/test.py) +1
 276. 7.6 [234](./problems/234/test.py) +1
@@ -720,3 +719,4 @@
 346. 7.25 [1162](./problems1k/1162/test.py)
 347. 7.25 [1046](./problems1k/1046/test.py)
 348. 7.26 [130](./problems/130/test.py)
+248. 7.26,7.6,6.17 [329](./problems/329/test.py) +1
