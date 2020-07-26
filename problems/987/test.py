@@ -4,42 +4,34 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#23:06-23:30
-def f(root, ix, lvl, d):
-    if (ix, lvl) not in d:
-        d[(ix, lvl)] = [root.val]
-    else:
-        d[(ix, lvl)].append(root.val)
-    if root.left:
-        f(root.left, ix-1, lvl-1, d)
-    if root.right:
-        f(root.right, ix+1, lvl-1, d)
+#17:27-18:32
 class Solution(object):
     def verticalTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[List[int]]
         """
-        d = {}
-        f(root, 0, 0, d)
+        if root == None:
+            return []
+        q = [(root,0,0)]
         rs = []
-        last = None
-        cnt = 0
-        rs = []
-        for k,v in sorted(d.items(), key=lambda fs:fs[0][0]*1001 - fs[0][1]):
-            if last != None:
-                if k[0] != last:
-                    rs.append([])
-                    cnt += 1
-                    for i in sorted(v):
-                        rs[cnt].append(i)
-                    last = k[0]
-                else:
-                    for i in sorted(v):
-                        rs[cnt].append(i)
-            else:
-                rs.append([])
-                for i in sorted(v):
-                    rs[cnt].append(i)
-                last = k[0]
-        return rs
+        while q:
+            xs = []
+            while q:
+                x,r,c = q.pop(0)
+                xs.append((x,r,c))
+                rs.append((c,r,x.val))
+            for x,r,c in xs:
+                if x.left:
+                    q.append((x.left,r+1,c-1))
+                if x.right:
+                    q.append((x.right,r+1,c+1))
+        zs = []
+        rs1 = sorted(rs)
+        bias = -rs1[0][0]+1
+        for r,c,x in rs1:
+            r += bias
+            while len(zs) < r:
+                zs.append([])
+            zs[r-1].append(x)
+        return zs
