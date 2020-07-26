@@ -5,7 +5,7 @@ class Node(object):
         self.val = val
         self.children = children
 """
-
+#17:20-17:22
 class Solution(object):
     def postorder(self, root):
         """
@@ -14,12 +14,16 @@ class Solution(object):
         """
         if root == None:
             return []
-        q = []
-        q.append(root)
+        q = [root]
         r = []
-        while len(q) > 0:
-            t = q.pop()
-            r.append(t.val)
-            for c in t.children:
-                q.append(c)
-        return r[::-1]
+        while q:
+            x = q.pop()
+            if x:
+                q.append(x)
+                q.append(None)
+                for c in x.children[::-1]:
+                    q.append(c)
+            else:
+                x = q.pop()
+                r.append(x.val)
+        return r
