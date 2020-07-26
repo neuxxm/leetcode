@@ -4,21 +4,17 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#18:33-18:40
-def f(x, y):
-    if x == None and y == None:
+#19:11-19:13
+def f(p, q):
+    if p==None and q!=None:
+        return False
+    if p!=None and q==None:
+        return False
+    if p == None and q == None:
         return True
-    if x and y == None:
+    if p.val != q.val:
         return False
-    if x == None and y:
-        return False
-    if x.val != y.val:
-        return False
-    if not f(x.left, y.right):
-        return False
-    if not f(x.right, y.left):
-        return False
-    return True
+    return f(p.left, q.right) and f(p.right, q.left)
 class Solution(object):
     def isSymmetric(self, root):
         """
