@@ -4,19 +4,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#20:00-20:04
+#16:49-16:51
 def f(x, last):
-    if x == None:
-        return True
-    if last[0]:
-        if x.val != last[0]:
+    if x.val != last:
+        return False
+    if x.left:
+        if not f(x.left, last):
             return False
-    else:
-        last[0] = x.val
-    if not f(x.left, last):
-        return False
-    if not f(x.right, last):
-        return False
+    if x.right:
+        if not f(x.right, last):
+            return False
     return True
 class Solution(object):
     def isUnivalTree(self, root):
@@ -24,5 +21,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        last = [None]
+        if root == None:
+            return True
+        last = root.val
         return f(root, last)
