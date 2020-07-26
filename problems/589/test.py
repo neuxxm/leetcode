@@ -5,7 +5,7 @@ class Node(object):
         self.val = val
         self.children = children
 """
-#21:57-21:59
+#17:13-17:15
 class Solution(object):
     def preorder(self, root):
         """
@@ -14,13 +14,16 @@ class Solution(object):
         """
         if root == None:
             return []
-        q = []
+        q = [root]
         r = []
-        q.append(root)
-        while len(q) > 0:
-            t = q.pop()
-            r.append(t.val)
-            child_len = len(t.children)
-            for i in xrange(child_len-1, -1, -1):
-                q.append(t.children[i])
+        while q:
+            x = q.pop()
+            if x:
+                for c in x.children[::-1]:
+                    q.append(c)
+                q.append(x)
+                q.append(None)
+            else:
+                x = q.pop()
+                r.append(x.val)
         return r
