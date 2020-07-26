@@ -5,7 +5,7 @@ class Node(object):
         self.val = val
         self.children = children
 """
-#21:06-21:10
+#17:01-17:04
 class Solution(object):
     def levelOrder(self, root):
         """
@@ -13,17 +13,18 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         if root == None:
-            return []
-        q = []
-        q.append((root, 0))
-        r = []
-        while len(q) > 0:
-            t, lvl = q.pop(0)
-            if lvl < len(r):
-                r[lvl].append(t.val)
-            else:
-                r.append([t.val])
-            if t.children:
-                for c in t.children:
-                    q.append((c, lvl+1))
-        return r
+            return
+        q = [root]
+        rs = []
+        while q:
+            xs = []
+            while q:
+                xs.append(q.pop(0))
+            r = []
+            for x in xs:
+                r.append(x.val)
+            rs.append(r)
+            for x in xs:
+                for c in x.children:
+                    q.append(c)
+        return rs
