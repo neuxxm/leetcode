@@ -4,13 +4,13 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#16:34-16:36
-#  1
+#16:11-16:16
+#  1 
 # 2 3
 #4 5
-#[3,2,1,non]
+#[3,1,non,5,2,non,4,non]
 class Solution(object):
-    def preorderTraversal(self, root):
+    def inorderTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -25,10 +25,10 @@ class Solution(object):
             if x:
                 if x.right:
                     q.append(x.right)
-                if x.left:
-                    q.append(x.left)
                 q.append(x)
                 q.append(None)
+                if x.left:
+                    q.append(x.left)
             else:
                 x = q.pop()
                 r.append(x.val)
