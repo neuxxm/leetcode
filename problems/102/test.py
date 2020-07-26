@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+#20:11-20:13
 class Solution(object):
     def levelOrder(self, root):
         """
@@ -13,18 +13,19 @@ class Solution(object):
         """
         if root == None:
             return []
-        q = []
-        q.append((root, 0))
+        q = [root]
         rs = []
-        while len(q) > 0:
-            t, lvl = q.pop(0)
-            if lvl < len(rs):
-                rs[lvl].append(t.val)
-            else:
-                rs.append([])
-                rs[lvl].append(t.val)
-            if t.left:
-                q.append((t.left, lvl+1))
-            if t.right:
-                q.append((t.right, lvl+1))
+        while q:
+            xs = []
+            l = []
+            while q:
+                x = q.pop(0)
+                xs.append(x)
+                l.append(x.val)
+            rs.append(l)
+            for x in xs:
+                if x.left:
+                    q.append(x.left)
+                if x.right:
+                    q.append(x.right)
         return rs
