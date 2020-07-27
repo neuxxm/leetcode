@@ -4,19 +4,17 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#11:04-11:08
-def f(root, y, lvl, path):
-    path[lvl] = root.val
-    if root.left == None and root.right == None:
-        if sum(path[:lvl+1]) == y:
+#14:34-14:41
+def f(x, lvl, y, z):
+    z += x.val
+    if x.left:
+        if f(x.left, lvl+1, y, z):
             return True
-        return False
-    if root.left:
-        if f(root.left, y, lvl+1, path):
+    if x.right:
+        if f(x.right, lvl+1, y, z):
             return True
-    if root.right:
-        if f(root.right, y, lvl+1, path):
-            return True
+    if x.left == None and x.right == None:
+        return y == z
     return False
 class Solution(object):
     def hasPathSum(self, root, sum):
@@ -27,5 +25,4 @@ class Solution(object):
         """
         if root == None:
             return False
-        path = [0] * 100000
-        return f(root, sum, 0, path)
+        return f(root, 0, sum, 0)
