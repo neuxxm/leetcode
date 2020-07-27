@@ -1,14 +1,10 @@
-#16:26-19:58
-def get_path(root, y, lvl, path, plist):
-    if root.val == y.val:
-        path[lvl] = root
-        plist.append(path[:lvl+1])
-        return
-    path[lvl] = root
-    if root.left:
-        get_path(root.left, y, lvl+1, path, plist)
-    if root.right:
-        get_path(root.right, y, lvl+1, path, plist)
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#20:55
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
@@ -17,25 +13,16 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
+		if root == p or root == q:
+			return root
         if root == None:
             return None
-        path = [None] * 100000
-        plists = []
-        get_path(root, p, 0, path, plists)
-        qlists = []
-        get_path(root, q, 0, path, qlists)
-        plist = plists[0]
-        qlist = qlists[0]
-        n = len(plist)
-        m = len(qlist)
-        i = 0
-        j = 0
-        r = None
-        while i < n and j < m:
-            if plist[i].val == qlist[j].val:
-                r = plist[i]
-                i += 1
-                j += 1
-            else:
-                break
-        return r
+        l = self.lowestCommonAncestor(root.left, p, q)
+        r = self.lowestCommonAncestor(root.right, p, q)
+        if l and r:
+            return root
+        if l:
+            return l
+        if r:
+            return r
+        return None
