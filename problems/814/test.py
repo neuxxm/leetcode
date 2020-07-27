@@ -4,21 +4,28 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#19:02-19:14
-def visit(x):
-    if x.left:
-        x.left = visit(x.left)
-    if x.right:
-        x.right = visit(x.right)
-    if x.left == None and x.right == None:
-        if x.val == 0:
-            x = None
-    return x
+#11:22-11:31
+def check(x):
+    if x == None:
+        return True
+    if x.val != 0:
+        return False
+    return check(x.left) and check(x.right)
+def f(x):
+    if x == None:
+        return
+    f(x.left)
+    f(x.right)
+    #deal x
+    if check(x.left):
+        x.left = None
+    if check(x.right):
+        x.right = None
 class Solution(object):
     def pruneTree(self, root):
         """
         :type root: TreeNode
         :rtype: TreeNode
         """
-        root = visit(root)
+        f(root)
         return root
