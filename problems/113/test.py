@@ -4,18 +4,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#22:55-23:00
-def f(x, lvl, path, z, rs):
+#15:20-15:23
+def f(x, y, lvl, path, z):
     path[lvl] = x.val
-    if x.left == None and x.right == None:
-        t = path[:lvl+1]
-        if sum(t) == z:
-            rs.append(t)
-        return
     if x.left:
-        f(x.left, lvl+1, path, z, rs)
+        f(x.left, y, lvl+1, path, z)
     if x.right:
-        f(x.right, lvl+1, path, z, rs)
+        f(x.right, y, lvl+1, path, z)
+    if x.left == None and x.right == None:
+        if sum(path[:lvl+1]) == y:
+            z.append(path[:lvl+1])
 class Solution(object):
     def pathSum(self, root, sum):
         """
@@ -26,6 +24,6 @@ class Solution(object):
         if root == None:
             return []
         path = [0] * 100005
-        rs = []
-        f(root, 0, path, sum, rs)
-        return rs
+        z = []
+        f(root, sum, 0, path, z)
+        return z
