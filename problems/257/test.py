@@ -4,19 +4,18 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#18:28-18:33
-def f(x, lvl, path, r):
+#20:18-20:21
+def f(x, lvl, path, z):
     path[lvl] = x.val
-    if x.left == None and x.right == None:
-        buf = '%d'%path[0]
-        for i in xrange(1, lvl+1):
-            buf += '->%d'%path[i]
-        r.append(buf)
-        return
     if x.left:
-        f(x.left, lvl+1, path, r)
+        f(x.left, lvl+1, path, z)
     if x.right:
-        f(x.right, lvl+1, path, r)
+        f(x.right, lvl+1, path, z)
+    if x.left == None and x.right == None:
+        t = '%d'%path[0]
+        for i in xrange(1, lvl+1):
+            t += '->%d'%path[i]
+        z.append(t)
 class Solution(object):
     def binaryTreePaths(self, root):
         """
@@ -25,7 +24,7 @@ class Solution(object):
         """
         if root == None:
             return []
-        r = []
-        path = [0] * 100005
-        f(root, 0, path, r)
-        return r
+        path = [0] * 10005
+        z = []
+        f(root, 0, path, z)
+        return z
