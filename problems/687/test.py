@@ -1,29 +1,27 @@
-#16:19-16:39
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#16:25-19:38
 def f(x, z):
-    lsame = 0
-    rsame = 0
-    l = 0
-    r = 0
-    if x.left:
-        t = f(x.left, z)
-        if x.val == x.left.val:
-            lsame = 1
-            l = t
-    if x.right:
-        t = f(x.right, z)
-        if x.val == x.right.val:
-            rsame = 1
-            r = t
-    ans = 0
-    if lsame or rsame:
-        ans = max(l+1, r+1)
-        if ans > z[0]:
-            z[0] = ans
-    if lsame and rsame:
-        t = l + r + 2
-        if t > z[0]:
-            z[0] = t
-    return ans
+    if x == None:
+        return 0
+    l = f(x.left, z)
+    r = f(x.right, z)
+    t = 1
+    if x.left and x.left.val == x.val:
+        t += l
+    else:
+        l = 0
+    if x.right and x.right.val == x.val:
+        t += r
+    else:
+        r = 0
+    if t > z[0]:
+        z[0] = t
+    return max(l, r) + 1
 class Solution(object):
     def longestUnivaluePath(self, root):
         """
@@ -34,4 +32,4 @@ class Solution(object):
             return 0
         z = [0]
         f(root, z)
-        return z[0]
+        return z[0]-1
