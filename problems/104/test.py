@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#19:22-19:23
+#12:23-12:24
 def f(x):
     if x == None:
         return 0

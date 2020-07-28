@@ -715,7 +715,6 @@
 349. 7.26,5.28 [1302](./problems1k/1302/test.py) +1
 349. 7.26,5.26 [100](./problems/100/test.py) +1
 349. 7.26,5.31,5.24 [101](./problems/101/test.py) +1
-349. 7.26,5.26 [104](./problems/104/test.py) +1
 349. 7.26,5.24 [110](./problems/110/test.py) +1
 350. 7.26,5.8 [572](./problems/572/test.py)
 350. 7.26,5.24 [965](./problems/965/test.py) +1
@@ -736,3 +735,4 @@
 355. 7.27,5.29 [interv.01.04](./interv/interv.01.04/test.py) +1
 356. 7.28 [297](./problems/297/test.py)
 356. 7.28,5.25 [1367](./problems1k/1367/test.py)
+356. 7.28,7.26,5.26 [104](./problems/104/test.py) +1
