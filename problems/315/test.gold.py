@@ -1,20 +1,20 @@
-#16:51-17:00
+#18:17-18:42
 import bisect
-def lowbit(x):
-    return x&-x
 class bit_t:
     def __init__(self, n):
         self.a = [0] * (n+1)
         self.n = n
-    def update(self, i, v):
+    def lowbit(self, x):
+        return x&(-x)
+    def update(self, i, val):
         while i <= self.n:
-            self.a[i] += v
-            i += lowbit(i)
-    def query(self, i):
+            self.a[i] += val
+            i += self.lowbit(i)
+    def sum(self, i):
         r = 0
         while i >= 1:
             r += self.a[i]
-            i -= lowbit(i)
+            i -= self.lowbit(i)
         return r
 class Solution(object):
     def countSmaller(self, nums):
@@ -23,14 +23,20 @@ class Solution(object):
         :rtype: List[int]
         """
         a = nums
-        sa = sorted(a)
         n = len(a)
+        # 3 2 4 1
+        #
+        # 1 2 3 4
+        # 1     1
+        # 
+        # 3 2 4 1
+        #     1 0
+        sa = sorted(a)
         for i in xrange(n):
             a[i] = bisect.bisect_left(sa, a[i]) + 1
+        r = [0] * n
         b = bit_t(n)
-        rs = []
         for i in xrange(n-1, -1, -1):
-            t = b.query(a[i]-1)
-            rs.append(t)
+            r[i] = b.sum(a[i]-1)
             b.update(a[i], 1)
-        return rs[::-1]
+        return r

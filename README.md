@@ -148,7 +148,7 @@
 ---
 - 6.20 [303](./problems/303/test.py)
 - 6.27,6.18,6.16,4.27 [307](./problems/307/test.py) +2
-- 7.11,6.23,4.26 [315](./problems/315/test.py) +1
+- 7.29,7.11,6.23,4.26 [315](./problems/315/test.py) +1
 - 6.3 [322](./problems/322/test.py)
 - 6.23 [327](./problems/327/test.py)
 - 7.26,7.6,6.17 [329](./problems/329/test.py) +1
@@ -641,7 +641,6 @@
 290. 7.9 [192](./shell/192/test.sh)
 291. 7.9 [interv.17.13](./interv/interv.17.13/test.py)
 292. 7.10 [152](./problems/152/test.py)
-292. 7.11,6.23,4.26 [315](./problems/315/test.py) +1
 292. 7.11,6.1,4.27 [493](./problems/493/test.py) +1
 293. 7.12 [1261](./problems1k/1261/test.py)
 294. 7.12 [697](./problems/697/test.py)
@@ -752,3 +751,4 @@
 363. 7.29 [153](./problems/153/test.py)
 364. 7.29 [154](./problems/154/test.py)
 364. 7.29,6.1 [912](./problems/912/test.qsort.py) +3
+364. 7.29,7.11,6.23,4.26 [315](./problems/315/test.py) +1
