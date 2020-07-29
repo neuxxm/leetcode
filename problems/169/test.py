@@ -1,4 +1,4 @@
-#00:03-00:05
+#11:11-11:19
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -7,14 +7,14 @@ class Solution(object):
         """
         a = nums
         n = len(a)
-        z = n/2
-        map = {}
-        for t in a:
-            if t in map:
-                map[t] += 1
-                if map[t] > z:
-                    return t
+        p = a[0]
+        cnt = 1
+        for i in xrange(1, n):
+            if cnt == 0:
+                p = a[i]
+                cnt = 1
+            elif a[i] == p:
+                cnt += 1
             else:
-                map[t] = 1
-                if map[t] > z:
-                    return t
+                cnt -= 1
+        return p
