@@ -350,6 +350,7 @@
 - 5.28 [interv.68-II](./problems/interv/interv.68-II/test.py)
 - 7.27,5.29 [interv.01.04](./interv/interv.01.04/test.py) +1
 - 6.2 [interv.01.06](./interv/interv.01.06/test.py)
+- 7.29 [interv.02.02](./interv/interv.02.02/test.py)
 - 7.21 [interv.03.02](./interv/interv.03.02/test.py)
 - 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
 - 5.27 [interv.04.04](./problems/interv/interv.04.04/test.py)
@@ -762,3 +763,4 @@
 367. 7.29 [interv.68-I](./interv/interv68-I/test.py)
 368. 7.29 [sword.53-I](./sword/sword.53-I/test.py)
 369. 7.29 [sword.58-I](./sword/sword.58-I/test.py)
+370. 7.29 [interv.02.02](./interv/interv.02.02/test.py)
