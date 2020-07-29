@@ -178,6 +178,7 @@
 - 5.31 [438](./problems/438/test.py)
 - 7.24 [441](./problems/441/test.py) +1
 - 7.21 [443](./problems/443/test.py)
+- 7.29 [445](./problems/445/test.py)
 - 7.21 [448](./problems/448/test.py)
 - 7.28 [449](./problems/449/test.py)
 - 6.14 [455](./problems/455/test.py)
@@ -754,3 +755,4 @@
 364. 7.29,6.1 [912](./problems/912/test.qsort.py) +3
 364. 7.29,7.11,6.23,4.26 [315](./problems/315/test.py) +1
 365. 7.29 [002](./problems/002/test.py)
+366. 7.29 [445](./problems/445/test.py)
