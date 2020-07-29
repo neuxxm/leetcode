@@ -250,7 +250,7 @@
 - 7.20 [896](./problems/896/test.py)
 - 5.28 [897](./problems/897/test.py)
 ---
-- 6.1 [912](./problems/912/test.py) +3
+- 7.29,6.1 [912](./problems/912/test.qsort.py) +3
 - 7.16 [914](./problems/914/test.py)
 - 7.20 [917](./problems/917/test.py)
 - 6.21 [922](./problems/922/test.py)
@@ -446,7 +446,6 @@
 88. 5.31 [567](./problems/567/test.py)
 88. 5.31,5.24 [interv.28](./problems/interv/interv.28/test.py)
 89. 6.1 [1431](./problems/1431/test.py)
-90. 6.1 [912](./problems/912/test.py) +3
 91. 6.1 [interv.51](./problems/interv/interv.51/test.bit.py) +2
 93. 6.1 [155](./problems/155/test.py) +1
 94. 5.30 [1460](./contest/contest.0530/1460/test.py)
@@ -752,3 +751,4 @@
 362. 7.29,6.2 [169](./problems/169/test.py)
 363. 7.29 [153](./problems/153/test.py)
 364. 7.29 [154](./problems/154/test.py)
+364. 7.29,6.1 [912](./problems/912/test.qsort.py) +3

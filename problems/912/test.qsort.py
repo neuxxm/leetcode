@@ -1,20 +1,20 @@
-#19:47-20:09fail
+#16:40-16:43
 def partition(a, l, r):
     p = a[l]
     while l < r:
-        while l<r and a[r]>=p:
+        while l < r and a[r] >= p:
             r -= 1
         a[l], a[r] = a[r], a[l]
-        while l<r and a[l]<=p:
+        while l < r and a[l] <= p:
             l += 1
         a[l], a[r] = a[r], a[l]
     return l
 def qsort(a, x, y):
     if x >= y:
         return
-    p = partition(a, x, y)
-    qsort(a, x, p-1)
-    qsort(a, p+1, y)
+    m = partition(a, x, y)
+    qsort(a, x, m-1)
+    qsort(a, m+1, y)
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -23,5 +23,7 @@ class Solution(object):
         """
         a = nums
         n = len(a)
+        if n == 0:
+            return []
         qsort(a, 0, n-1)
         return a
