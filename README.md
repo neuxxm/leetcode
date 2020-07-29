@@ -323,6 +323,8 @@
 - 5.31 [1466](./contest/contest.0531/1466/test.py)
 - 7.4 [1491](./problems1k/1491/test.py)
 ---
+- 7.29 [1502](./problems1k/1502/test.py)
+---
 - 5.23 [interv.07](./problems/interv/interv.07/test.py)
 - 5.30 [interv.13](./problems/interv/interv.13/test.py)
 - 5.28 [interv.27](./problems/interv/interv.27/test.py)
@@ -764,3 +766,4 @@
 368. 7.29 [sword.53-I](./sword/sword.53-I/test.py)
 369. 7.29 [sword.58-I](./sword/sword.58-I/test.py)
 370. 7.29 [interv.02.02](./interv/interv.02.02/test.py)
+371. 7.29 [1502](./problems1k/1502/test.py)
