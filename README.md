@@ -6,6 +6,7 @@
 - 6.27,6.25 [478](./problems/478/test.py) +1
 - 6.27,6.17 [470](./problems/470/test.py) +1
 # 题号序
+- 7.29 [002](./problems/002/test.py)
 - 5.31 [003](./problems/003/test.py)
 - 5.24 [4](./problems/4/test.py)
 - 7.5 [005](./problems/005/test.py) +1
@@ -752,3 +753,4 @@
 364. 7.29 [154](./problems/154/test.py)
 364. 7.29,6.1 [912](./problems/912/test.qsort.py) +3
 364. 7.29,7.11,6.23,4.26 [315](./problems/315/test.py) +1
+365. 7.29 [002](./problems/002/test.py)
