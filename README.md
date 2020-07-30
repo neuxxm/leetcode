@@ -198,6 +198,7 @@
 - 7.28 [508](./problems/508/test.py)
 - 5.28 [513](./problems/513/test.py)
 - 5.27 [515](./problems/515/test.py)
+- 7.30 [521](./problems/521/test.py)
 - 6.16 [528](./problems/528/test.py)
 - 5.26 [538](./problems/538/test.py)
 - 7.28,6.26 [543](./problems/543/test.py)
@@ -829,3 +830,4 @@
 400. 7.30 [496](./problems/496/test.py)
 401. 7.30 [501](./problems/501/test.py)
 402. 7.30 [506](./problems/506/test.py)
+403. 7.30 [521](./problems/521/test.py)
