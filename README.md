@@ -328,6 +328,7 @@
 - 5.24 [5416](./contest/5416/test.py)
 - 5.24 [5417](./contest/5417/test.py)
 - 5.24 [5418](./contest/5418/test.py)
+- 7.30 [1441](./problems1k/1441/test.py)
 - 7.20 [1446](./problems1k/1446/test.py)
 - 7.14,5.24 [1458](./problems1k/1458/test.py)
 - 5.30 [1460](./contest/contest.0530/1460/test.py)
@@ -803,3 +804,4 @@
 387. 7.30 [1413](./problems1k/1413/test.py)
 388. 7.30 [1422](./problems1k/1422/test.py)
 389. 7.30 [1436](./problems1k/1436/test.py)
+390. 7.30 [1441](./problems1k/1441/test.py)
