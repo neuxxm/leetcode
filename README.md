@@ -206,6 +206,7 @@
 - 7.26,5.23 [589](./problems/589/test.py)
 - 7.26,5.23 [590](./problems/590/test.py)
 - 7.30 [594](./problems/594/test.py)
+- 7.30 [599](./problems/599/test.py)
 ---
 - 5.24 [617](./problems/617/test.py)
 - 6.22 [622](./problems/622/test.py)
@@ -813,3 +814,4 @@
 392. 7.30 [1408](./problems1k/1408/test.py)
 393. 7.30 [interv.01.02](./interv/interv.01.02/test.py)
 394. 7.30 [594](./problems/594/test.py)
+395. 7.30 [599](./problems/599/test.py)
