@@ -192,6 +192,7 @@
 - 5.24 [498](./problems/498/test.py)
 ---
 - 7.24 [500](./problems/500/test.py)
+- 7.30 [501](./problems/501/test.py)
 - 6.30 [507](./problems/507/test.py)
 - 7.28 [508](./problems/508/test.py)
 - 5.28 [513](./problems/513/test.py)
@@ -825,3 +826,4 @@
 398. 7.30 [482](./problems/482/test.py)
 399. 7.30 [492](./problems/492/test.py)
 400. 7.30 [496](./problems/496/test.py)
+401. 7.30 [501](./problems/501/test.py)
