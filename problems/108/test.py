@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#11:47-11:50
+#18:05-18:07
 class Solution(object):
     def sortedArrayToBST(self, nums):
         """
@@ -12,10 +12,11 @@ class Solution(object):
         :rtype: TreeNode
         """
         a = nums
-        if len(a) == 0:
+        n = len(a)
+        if n == 0:
             return None
-        mid = len(a) / 2
-        root = TreeNode(a[mid])
-        root.left = self.sortedArrayToBST(a[:mid])
-        root.right = self.sortedArrayToBST(a[mid+1:])
+        ix = n / 2
+        root = TreeNode(a[ix])
+        root.left = self.sortedArrayToBST(a[:ix]) 
+        root.right = self.sortedArrayToBST(a[ix+1:])
         return root
