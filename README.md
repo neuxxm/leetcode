@@ -82,6 +82,7 @@
 - 7.26 [130](./problems/130/test.py)
 - 6.28 [139](./problems/139/test.py)
 - 8.1,6.25 [141](./problems/141/test.py) +1
+- 8.1 [142](./problems/142/test.py)
 - 7.26,7.7,5.22 [144](./problems/144/test.py) +1
 - 7.26,6.16,5.22 [145](./problems/145/test.color-nonrecur.py) +1
 - 7.15 [150](./problems/150/test.py)
@@ -853,3 +854,4 @@
 414. 8.1 [interv.16.15](./interv/interv.16.15/test.py)
 414. 8.1,7.6,6.2 [206](./problems/206/test.py) +1
 414. 8.1,6.25 [141](./problems/141/test.py) +1
+415. 8.1 [142](./problems/142/test.py)
