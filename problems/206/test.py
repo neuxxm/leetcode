@@ -3,7 +3,9 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-#15:48-15:50
+#10:07-10:16
+#h -> b -> a
+#c
 class Solution(object):
     def reverseList(self, head):
         """
@@ -12,7 +14,7 @@ class Solution(object):
         """
         h = ListNode(0)
         p = head
-        while p:
+        while p != None:
             t = p.next
             p.next = h.next
             h.next = p
