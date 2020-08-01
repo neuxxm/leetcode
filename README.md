@@ -81,7 +81,7 @@
 - 7.27,5.27 [129](./problems/129/test.py) +1
 - 7.26 [130](./problems/130/test.py)
 - 6.28 [139](./problems/139/test.py)
-- 6.25 [141](./problems/141/test.py)
+- 8.1,6.25 [141](./problems/141/test.py) +1
 - 7.26,7.7,5.22 [144](./problems/144/test.py) +1
 - 7.26,6.16,5.22 [145](./problems/145/test.color-nonrecur.py) +1
 - 7.15 [150](./problems/150/test.py)
@@ -609,7 +609,6 @@
 211. 6.23 [240](./problems/240/test.py)
 214. 6.25 [051](./problems/051/test.py)
 216. 6.25 [190](./problems/190/test.py)
-217. 6.25 [141](./problems/141/test.py)
 217. 6.25,5.31,5.23 [076](./problems/076/test.py)
 218. 6.25 [sword.48](./sword/sword.48/test.py)
 219. 6.25,6.16 [382](./problems/382/test.py) +1
@@ -853,3 +852,4 @@
 413. 7.31 [interv.17.04](./interv/interv.17.04/test.py)
 414. 8.1 [interv.16.15](./interv/interv.16.15/test.py)
 414. 8.1,7.6,6.2 [206](./problems/206/test.py) +1
+414. 8.1,6.25 [141](./problems/141/test.py) +1
