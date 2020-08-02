@@ -381,6 +381,7 @@
 - 8.2 [5475](./contest/contest.0802.200week/5475/test.py)
 - 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
 - 8.2 [5477](./contest/contest.0802.200week/5477/test.py)
+- 8.2 [5478](./contest/contest.0802.200week/5478/test.py)
 ---
 - 5.23 [interv.07](./problems/interv/interv.07/test.py)
 - 5.30 [interv.13](./problems/interv/interv.13/test.py)
@@ -890,3 +891,4 @@
 430. 8.2 [5475](./contest/contest.0802.200week/5475/test.py)
 431. 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
 432. 8.2 [5477](./contest/contest.0802.200week/5477/test.py)
+433. 8.2 [5478](./contest/contest.0802.200week/5478/test.py)
