@@ -1,4 +1,4 @@
-#22:57-23:00
+#15:12-15:14
 class Solution(object):
     def searchRange(self, nums, target):
         """
@@ -9,33 +9,32 @@ class Solution(object):
         a = nums
         n = len(a)
         y = target
+        ans = -1
         l = 0
         r = n - 1
-        z = -1
         while l <= r:
-            m = l + (r-l)/2
+            m = (l+r) >> 1
             if y == a[m]:
-                z = m
+                ans = m
                 break
             if y < a[m]:
                 r = m - 1
             else:
                 l = m + 1
-        l = []
-        if z == -1:
-            l.append(-1)
-            l.append(-1)
-            return l
-        t = z
-        while t >= 0:
-            if a[t] != y:
+        if ans == -1:
+            return [-1, -1]
+        i = ans
+        while i >= 0:
+            if a[i] == y:
+                i -= 1
+            else:
                 break
-            t -= 1
-        l.append(t+1)
-        t = z
-        while t < n:
-            if a[t] != y:
+        r = [i+1]
+        j = ans
+        while j < n:
+            if a[j] == y:
+                j += 1
+            else:
                 break
-            t += 1
-        l.append(t-1)
-        return l
+        r.append(j-1)
+        return r
