@@ -887,7 +887,6 @@
 425. 8.1 [1170](./problems1k/1170/test.py)
 426. 8.1 [1175](./problems1k/1175/test.py)
 427. 8.1 [1002](./problems1k/1002/test.py)
-428. 8.2 [852](./problems/852/test.py)
 429. 8.2 [859](./problems/859/test.py)
 430. 8.2 [5475](./contest/contest.0802.200week/5475/test.py)
 431. 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
@@ -902,3 +901,4 @@
 437. 8.2,7.29 [153](./problems/153/test.py) +1
 437. 8.2,7.29 [154](./problems/154/test.py) +1
 438. 8.2 [162](./problems/162/test.py)
+438. 8.2 [852](./problems/852/test.py)
