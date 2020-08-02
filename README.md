@@ -28,7 +28,7 @@
 - 6.7 [028](./problems/028/test.py)
 - 7.4 [032](./problems/032/test.py)
 - 6.28 [034](./problems/034/test.py)
-- 7.17,6.26,6.9 [035](./problems/035/test.py) +1
+- 8.2,7.17,6.26,6.9 [035](./problems/035/test.py) +1
 - 6.14 [038](./problems/038/test.py)
 - 7.14 [040](./problems/040/test.py)
 - 7.5 [044](./problems/044/test.py) +1
@@ -720,7 +720,6 @@
 301. 7.16 [914](./problems/914/test.py)
 302. 7.16 [785](./problems/785/test.py) +1
 303. 7.16 [055](./problems/055/test.py)
-303. 7.17,6.26,6.9 [035](./problems/035/test.py) +1
 304. 7.17 [069](./problems/069/test.py) +3
 305. 7.18 [097](./problems/097/test.py) +1
 305. 7.18,5.29 [198](./problems/198/test.py)
@@ -892,3 +891,4 @@
 431. 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
 432. 8.2 [5477](./contest/contest.0802.200week/5477/test.py)
 433. 8.2 [5478](./contest/contest.0802.200week/5478/test.py)
+433. 8.2,7.17,6.26,6.9 [035](./problems/035/test.py) +1
