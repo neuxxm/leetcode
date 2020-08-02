@@ -1,4 +1,4 @@
-#14:35-15:38
+#21:32-21:41
 class Solution(object):
     def findMin(self, nums):
         """
@@ -11,24 +11,23 @@ class Solution(object):
             return 0
         if n == 1:
             return a[0]
-        if a[0] < a[n-1]:
-            return a[0]
         l = 0
         r = n - 1
+        if a[l] < a[r]:
+            return a[l]
         while l <= r:
             m = (l+r) >> 1
-            if m > 0:
-                if a[m] < a[m-1]:
-                    return a[m]
-            else:
+            if m == 0:
                 if a[m] > a[m+1]:
-                    l = m + 1
-                    continue
-                else:
-                    return a[m]
+                    return a[m + 1]
+                l += 1
+                continue
+            if m == n-1:
+                r -= 1
+                continue
+            if a[m]>a[0] and a[m]>a[m+1]:
+                return a[m + 1]
             if a[m] > a[0]:
                 l = m + 1
-            elif a[m] < a[n-1]:
-                r = m - 1
             else:
-                return a[m]
+                r = m - 1

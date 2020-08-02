@@ -93,7 +93,7 @@
 - 7.15 [150](./problems/150/test.py)
 - 7.24,5.22 [151](./problems/151/test.py)
 - 7.10 [152](./problems/152/test.py)
-- 7.29 [153](./problems/153/test.py)
+- 8.2,7.29 [153](./problems/153/test.py) +1
 - 7.29 [154](./problems/154/test.py)
 - 6.1 [155](./problems/155/test.py) +1
 - 7.6 [160](./problems/160/test.py) +1
@@ -815,7 +815,6 @@
 361. 7.28 [337](./problems/337/test.py)
 362. 7.29 [979](./problems/979/test.py)
 362. 7.29,6.2 [169](./problems/169/test.py)
-363. 7.29 [153](./problems/153/test.py)
 364. 7.29 [154](./problems/154/test.py)
 364. 7.29,6.1 [912](./problems/912/test.qsort.py) +3
 364. 7.29,7.11,6.23,4.26 [315](./problems/315/test.py) +1
@@ -900,3 +899,4 @@
 435. 8.2 [981](./problems/981/test.py)
 436. 8.2 [033](./problems/033/test.py)
 437. 8.2 [081](./problems/081/test.py)
+437. 8.2,7.29 [153](./problems/153/test.py) +1
