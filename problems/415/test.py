@@ -1,4 +1,20 @@
-#20:23-20:27
+#11:26-11:36
+def f(a, b, tag):
+    t = int(a) + int(b) + tag
+    if t >= 10:
+        t -= 10
+        tag = 1
+    else:
+        tag = 0
+    return t, tag
+def f2(a, tag):
+    t = int(a) + tag
+    if t >= 10:
+        t -= 10
+        tag = 1
+    else:
+        tag = 0
+    return t, tag
 class Solution(object):
     def addStrings(self, num1, num2):
         """
@@ -12,39 +28,24 @@ class Solution(object):
         m = len(b)
         i = n-1
         j = m-1
-        r = []
         tag = 0
+        z = []
         while i>=0 and j>=0:
-            t = int(a[i]) + int(b[j]) + tag
-            if t >= 10:
-                t -= 10
-                tag = 1
-            else:
-                tag = 0
-            r.append(t)
+            t, tag = f(a[i], b[j], tag)
+            z.append(t)
             i -= 1
             j -= 1
         while i>=0:
-            t = int(a[i]) + tag
-            if t >= 10:
-                t -= 10
-                tag = 1
-            else:
-                tag = 0
-            r.append(t)
+            t, tag = f2(a[i], tag)
+            z.append(t)
             i -= 1
         while j>=0:
-            t = int(b[j]) + tag
-            if t >= 10:
-                t -= 10
-                tag = 1
-            else:
-                tag = 0
-            r.append(t)
+            t, tag = f2(b[j], tag)
+            z.append(t)
             j -= 1
-        if tag > 0:
-            r.append(tag)
-        buf = ''
-        for i in xrange(len(r)-1, -1, -1):
-            buf += '%d'%(r[i])
-        return buf
+        if tag:
+            z.append(tag)
+        s = ''
+        for t in z[::-1]:
+            s += '%d'%t
+        return s
