@@ -1,14 +1,13 @@
-#11:29-11:31
+#11:45-11:47
 class Solution(object):
     def arrangeCoins(self, n):
         """
         :type n: int
         :rtype: int
         """
-        k = 1
+        k = 0
         while True:
-            t = k*(k+1)/2
+            t = (k+1)*(k+2)/2
             if t > n:
-                break
+                return k
             k += 1
-        return k-1
