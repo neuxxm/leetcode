@@ -118,7 +118,7 @@
 - 6.15 [203](./problems/203/test.py)
 - 6.14 [204](./problems/204/test.py)
 - 8.1,7.6,6.2 [206](./problems/206/test.py) +1
-- 6.20 [207](./problems/207/test.py)
+- 8.4,6.20 [207](./problems/207/test.py) +1
 - 6.28 [209](./problems/209/test.py)
 - 6.17 [210](./problems/210/test.py)
 - 6.6 [211](./problems/211/test.py)
@@ -609,7 +609,6 @@
 187. 6.20 [303](./problems/303/test.py)
 188. 6.20 [sword.42](./sword/sword.42/test.py)
 189. 6.20 [212](./problems/212/test.py)
-190. 6.20 [207](./problems/207/test.py)
 191. 6.20 [349](./problems/349/test.py)
 192. 6.21 [922](./problems/922/test.py)
 193. 6.21 [721](./problems/721/test.py)
@@ -908,3 +907,4 @@
 440. 8.3,7.24 [441](./problems/441/test.py) +1
 441. 8.3 [sword.59-II](./sword/sword.59-II/test.py)
 441. 8.3,6.17 [933](./problems/933/test.2424ms.py) +1
+441. 8.4,6.20 [207](./problems/207/test.py) +1

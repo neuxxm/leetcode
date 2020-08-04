@@ -1,4 +1,4 @@
-#23:24-23:26
+#11:05-11:12
 class Solution(object):
     def canFinish(self, numCourses, prerequisites):
         """
@@ -6,22 +6,26 @@ class Solution(object):
         :type prerequisites: List[List[int]]
         :rtype: bool
         """
-        m = numCourses
+        n = numCourses
         ps = prerequisites
-        c = [0] * m
-        for b,a in ps:
-            c[b] += 1
+        ind = [0] * n
+        for xs in ps:
+            y = xs[0]
+            x = xs[1]
+            ind[y] += 1
         q = []
-        for i in xrange(m):
-            if c[i] == 0:
+        for i in xrange(n):
+            if ind[i] == 0:
                 q.append(i)
-        r = 0
-        while len(q) > 0:
+        z = 0
+        while q:
             t = q.pop(0)
-            r += 1
-            for b,a in ps:
-                if a == t:
-                    c[b] -= 1
-                    if c[b] == 0:
-                        q.append(b)
-        return r == m
+            z += 1
+            for xs in ps:
+                y = xs[0]
+                x = xs[1]
+                if x == t:
+                    ind[y] -= 1
+                    if ind[y] == 0:
+                        q.append(y)
+        return z == n
