@@ -1,4 +1,5 @@
-#13:20fail
+#11:23-11:26
+from collections import deque
 class Solution(object):
     def findOrder(self, numCourses, prerequisites):
         """
@@ -8,22 +9,20 @@ class Solution(object):
         """
         n = numCourses
         ps = prerequisites
-        ind = {}
-        for i in xrange(0, n):
-            ind[i] = 0
-        for b,a in ps:
-            ind[b] += 1
-        q = []
-        for k,v in ind.items():
-            if v == 0:
-                q.append(k)
-        r = []
-        while len(q) > 0:
-            t = q.pop(0)
-            r.append(t)
-            for b,a in ps:
-                if a == t:
-                    ind[b] -= 1
-                    if ind[b] == 0:
-                        q.append(b)
-        return r if len(r) == n else []
+        rs = []
+        ind = [0] * n
+        for y,x in ps:
+            ind[y] += 1
+        q = deque()
+        for i in xrange(n):
+            if ind[i] == 0:
+                q.append(i)
+        while q:
+            t = q.popleft()
+            rs.append(t)
+            for y,x in ps:
+                if t == x:
+                    ind[y] -= 1
+                    if ind[y] == 0:
+                        q.append(y)
+        return rs if len(rs) == n else []
