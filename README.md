@@ -198,6 +198,7 @@
 - 7.30 [482](./problems/482/test.py)
 - 7.30 [492](./problems/492/test.py)
 - 7.11,6.1,4.27 [493](./problems/493/test.py) +1
+- 8.5 [494](./problems1k/494/test.py)
 - 7.30 [496](./problems/496/test.py)
 - 5.24 [498](./problems/498/test.py)
 ---
@@ -912,3 +913,4 @@
 442. 8.4 [1013](./problems1k/1013/test.py)
 443. 8.4 [1432](./problems1k/1432/test.py)
 443. 8.5,7.28 [337](./problems/337/test.py) +1
+444. 8.5 [494](./problems1k/494/test.py)
