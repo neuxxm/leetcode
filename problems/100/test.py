@@ -4,17 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-#18:57-18:59
-def f(p, q):
-    if p==None and q!=None:
-        return False
-    if p!=None and q==None:
-        return False
-    if p==None and q==None:
-        return True
-    if p.val != q.val:
-        return False
-    return f(p.left, q.left) and f(p.right, q.right)
+#10:28-10:30
 class Solution(object):
     def isSameTree(self, p, q):
         """
@@ -22,4 +12,12 @@ class Solution(object):
         :type q: TreeNode
         :rtype: bool
         """
-        return f(p, q)
+        if p == None and q != None:
+            return False
+        if p != None and q == None:
+            return False
+        if p == None and q == None:
+            return True
+        if p.val != q.val:
+            return False
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
