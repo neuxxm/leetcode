@@ -217,6 +217,7 @@
 - 7.30 [532](./problems/532/test.py)
 - 5.26 [538](./problems/538/test.py)
 - 7.30 [541](./problems/541/test.py)
+- 8.8 [542](./problems/542/test.py)
 - 7.28,6.26 [543](./problems/543/test.py)
 - 7.30 [551](./problems/551/test.py)
 - 6.30 [557](./problems/557/test.py)
@@ -922,3 +923,4 @@
 447. 8.8,8.1,5.23 [099](./problems/099/test.recur.py)
 447. 8.8,5.23 [sword.33](./sword/sword.33/test.py) +1
 448. 8.8 [695](./problems/695/test.py)
+449. 8.8 [542](./problems/542/test.py)
