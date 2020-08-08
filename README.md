@@ -393,6 +393,8 @@
 - 7.30 [1523](./problems1k/1523/test.py)
 - 7.30 [1528](./problems1k/1528/test.py)
 ---
+- 8.8 [5468](./contest/contest.0808.28biweek/5468/test.py)
+- 8.8 [5469](./contest/contest.0808.28biweek/5469/test.py)
 - 8.2 [5475](./contest/contest.0802.200week/5475/test.py)
 - 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
 - 8.2 [5477](./contest/contest.0802.200week/5477/test.py)
@@ -924,3 +926,5 @@
 447. 8.8,5.23 [sword.33](./sword/sword.33/test.py) +1
 448. 8.8 [695](./problems/695/test.py)
 449. 8.8 [542](./problems/542/test.py)
+450. 8.8 [5468](./contest/contest.0808.28biweek/5468/test.py)
+451. 8.8 [5469](./contest/contest.0808.28biweek/5469/test.py)
