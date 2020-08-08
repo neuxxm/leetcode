@@ -203,8 +203,8 @@
 - 8.5 [494](./problems1k/494/test.py)
 - 7.30 [496](./problems/496/test.py)
 - 5.24 [498](./problems/498/test.py)
----
 - 7.24 [500](./problems/500/test.py)
+---
 - 8.1,7.30 [501](./problems/501/test.py)
 - 7.30 [506](./problems/506/test.py)
 - 6.30 [507](./problems/507/test.py)
@@ -253,8 +253,8 @@
 - 6.14 [690](./problems/690/test.py)
 - 6.26 [692](./problems/692/test.py)
 - 7.12 [697](./problems/697/test.py)
----
 - 8.1 [700](./problems/700/test.py)
+---
 - 6.22 [703](./problems/703/test.py)
 - 8.2 [704](./problems/704/test.py)
 - 6.21 [705](./problems/705/test.py)
@@ -336,8 +336,8 @@
 - 7.25 [1162](./problems1k/1162/test.py)
 - 8.1 [1170](./problems1k/1170/test.py)
 - 8.1 [1175](./problems1k/1175/test.py)
----
 - 7.20 [1200](./problems1k/1200/test.py)
+---
 - 7.19 [1203](./problems1k/1203/test.py)
 - 6.16 [1232](./problems1k/1232/test.py)
 - 5.31 [1248](./problems1k/1248/test.py)
@@ -405,7 +405,6 @@
 - 5.28 [interv.32-I](./problems/interv/interv.32-I/test.py)
 - 5.27 [interv.32-II](./problems/interv/interv.32-II/test.py)
 - 5.28 [interv.32-III](./problems/interv/interv.32-III/test.py)
-- 5.23 [interv.33](./problems/interv/interv.33/test.py)
 - 5.28 [interv.34](./problems/interv/interv.34/test.py)
 - 6.16 [interv.40](./interv/interv.40/test.py)
 - 6.9 [interv.46](./interv/interv.46/test.py)
@@ -463,6 +462,7 @@
 - 7.21 [sword.22](./sword/sword.22/test.py)
 - 6.30 [sword.24](./sword/sword.24/test.py)
 - 7.14 [sword.25](./sword/sword.25/test.py)
+- 8.8,5.23 [sword.33](./sword/sword.33/test.py) +1
 - 6.23 [sword.39](./sword/sword.39/test.py)
 - 7.5 [sword.40](./sword/sword.40/test.py)
 - 6.20 [sword.42](./sword/sword.42/test.py)
@@ -478,7 +478,6 @@
 8. 5.23 [889](./problems/889/test.py)
 9. 5.23 [106](./problems/106/test.py)
 11. 5.23 [1008](./problems/1008/test.py)
-12. 5.23 [interv.33](./problems/interv/interv.33/test.py)
 16. 5.23 [interv.04.09](./problems/interv/interv.04.09/test.py)
 21. 5.23 [interv.07](./problems/interv/interv.07/test.py)
 23. 5.24 [617](./problems/617/test.py)
@@ -877,7 +876,6 @@
 419. 8.1,7.30 [530](./problems/530/test.recur.py) +2
 420. 8.1 [700](./problems/700/test.py)
 421. 8.1 [230](./problems/230/test.py)
-421. 8.1,5.23 [099](./problems/099/test.recur.py)
 421. 8.1,5.27 [108](./problems/108/test.py) +1
 421. 8.1,7.30 [501](./problems/501/test.py)
 422. 8.1 [450](./problems/450/test.py)
@@ -920,3 +918,5 @@
 445. 8.7,5.27 [1022](./problems1k/1022/test.py) +1
 446. 8.7 [300](./problems/300/test.py)
 447. 8.7 [474](./problems/474/test.py)
+447. 8.8,8.1,5.23 [099](./problems/099/test.recur.py)
+447. 8.8,5.23 [sword.33](./sword/sword.33/test.py) +1
