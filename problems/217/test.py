@@ -1,15 +1,13 @@
-#21:28
+#19:03-19:03
 class Solution(object):
     def containsDuplicate(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
         """
-        a = nums
         map = {}
-        for c in a:
-            if c in map:
+        for t in nums:
+            if t in map:
                 return True
-            else:
-                map[c] = 1
+            map[t] = 1
         return False
