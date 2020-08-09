@@ -53,7 +53,7 @@
 - 8.2 [081](./problems/081/test.py)
 - 6.26 [083](./problems/083/test.py)
 - 6.14 [088](./problems/088/test.py)
-- 6.30 [093](./problems/093/test.py)
+- 8.9,6.30 [093](./problems/093/test.py)
 - 7.26,5.23,5.22 [094](./problems/094/test.color-nonrecur.py)
 - 7.15 [096](./problems/096/test.py) +1
 - 7.17 [097](./problems/097/test.py) +1
@@ -673,7 +673,6 @@
 246. 6.29 [sword.06](./sword/sword.06/test.py)
 247. 6.30 [sword.09](./sword/sword.09/test.py)
 248. 6.30 [sword.24](./sword/sword.24/test.py)
-249. 6.30 [093](./problems/093/test.py)
 250. 6.30 [119](./problems/119/test.py)
 251. 6.30 [461](./problems/461/test.py)
 252. 6.30 [557](./problems/557/test.py)
@@ -928,3 +927,4 @@
 449. 8.8 [542](./problems/542/test.py)
 450. 8.8 [5468](./contest/contest.0808.28biweek/5468/test.py)
 451. 8.8 [5469](./contest/contest.0808.28biweek/5469/test.py)
+451. 8.9,6.30 [093](./problems/093/test.py)

@@ -1,33 +1,49 @@
-#13:15-13:24
-def f(s, i, n, lvl, path, z):
-    if lvl == 3:
-        if i >= n:
-            return
-        if n-i>1 and s[i] == '0':
-            return
-        t = int(s[i:])
-        if 0 <= t and t < 256:
-            path[lvl] = s[i:]
-            lvl += 1
-            z.append('.'.join(path[:lvl]))
+#12:14-12:29
+def f(s, k, t, z):
+    if s == '':
+        if k == 4:
+            z.append(t[1:])
         return
-    for j in xrange(1, 4):
-        if i+j >= n:
-            continue
-        if j>1 and s[i] == '0':
-            continue
-        t = int(s[i:i+j])
-        if 0 <= t and t < 256:
-            path[lvl] = s[i:i+j]
-            f(s, i+j, n, lvl+1, path, z)
+    if k > 4:
+        return
+    n = len(s)
+    if n == 1:
+        f('', k+1, t + '.' + s, z)
+        return
+    m = int(s[0])
+    if m > 2:
+        f(s[1:], k+1, t + '.' + s[0], z)
+        f(s[2:], k+1, t + '.' + s[:2], z)
+    elif m == 0:
+        f(s[1:], k+1, t + '.' + s[0], z)
+    elif m == 1:
+        f(s[1:], k+1, t + '.' + s[0], z)
+        f(s[2:], k+1, t + '.' + s[:2], z)
+        if n >= 3:
+            f(s[3:], k+1, t + '.' + s[:3], z)
+    else:
+        if int(s[1]) > 5:
+            f(s[1:], k+1, t + '.' + s[0], z)
+            f(s[2:], k+1, t + '.' + s[:2], z)
+        elif int(s[1]) < 5:
+            f(s[1:], k+1, t + '.' + s[0], z)
+            f(s[2:], k+1, t + '.' + s[:2], z)
+            if n >= 3:
+                f(s[3:], k+1, t + '.' + s[:3], z)
+        else:
+            f(s[1:], k+1, t + '.' + s[0], z)
+            f(s[2:], k+1, t + '.' + s[:2], z)
+            if n >= 3:
+                if int(s[2]) <= 5:
+                    f(s[3:], k+1, t + '.' + s[:3], z)
 class Solution(object):
     def restoreIpAddresses(self, s):
         """
         :type s: str
         :rtype: List[str]
         """
-        n = len(s)
-        path = [''] * 4
+        if len(s) > 12:
+            return []
         z = []
-        f(s, 0, n, 0, path, z)
+        f(s, 0, '', z)
         return z
