@@ -326,6 +326,7 @@
 - 6.5 [1038](./problems/1038/test.py)
 - 7.25 [1046](./problems1k/1046/test.py)
 - 6.26 [1047](./problems1k/1047/test.py)
+- 8.9 [1160](./problems1k/1060/test.py)
 - 8.5 [1071](./problems1k/1071/test.py)
 - 7.20 [1078](./problems1k/1078/test.py)
 - 7.31 [1095](./problems1k/1095/test.py)
@@ -934,3 +935,4 @@
 452. 8.9 [5483](./contest/contest.0809.201week/5483/test.py)
 453. 8.9 [5484](./contest/contest.0809.201week/5484/test.py)
 454. 8.9 [091](./problems/091/test.py)
+455. 8.9 [1160](./problems1k/1060/test.py)
