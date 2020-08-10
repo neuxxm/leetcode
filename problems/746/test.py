@@ -1,19 +1,19 @@
-#6.26 20:52-21:08
-def f(n, a, d, N):
-    if n < 2:
-        return a[n]
-    if n < N and d[n] != -1:
-        return d[n]
-    t = min(f(n-1, a, d, N), f(n-2, a, d, N)) + a[n]
-    d[n] = t
-    return t
+#3:25-3:31
 class Solution(object):
     def minCostClimbingStairs(self, cost):
         """
         :type cost: List[int]
         :rtype: int
         """
-        n = len(cost)
-        cost.append(0)
-        d = [-1] * (n+1)
-        return f(n, cost, d, n)
+        a = cost
+        n = len(a)
+        dp = [0] * (n+1)
+        dp[0] = a[0]
+        dp[1] = a[1]
+        if n <= 2:
+            return dp[n-1]
+        for i in xrange(2, n+1):
+            dp[i] = min(dp[i-1], dp[i-2])
+            if i < n:
+                dp[i] += a[i]
+        return dp[n]
