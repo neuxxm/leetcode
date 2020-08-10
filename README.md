@@ -444,6 +444,7 @@
 - 7.25 [interv.04.06](./interv/interv.04.06/test.py)
 - 8.9,5.23 [interv.04.09](./interv/interv.04.09/test.py)
 - 8.10 [interv.05.03](./interv/interv.05.03/test.py)
+- 8.11 [interv.05.06](./interv/interv.05.06/test.c)
 - 8.10 [interv.05.07](./interv/interv.05.07/test.py)
 - 6.14 [interv.08.01](./interv/interv.08.01/test.py)
 - 7.31 [interv.08.03](./interv/interv.08.03/test.py)
@@ -954,3 +955,4 @@
 462. 8.10 [interv.03.04](./interv/interv.03.04/test.py)
 463. 8.10 [interv.02.03](./interv/interv.02.03/test.py)
 464. 8.10 [1299](./problems1k/1299/test.py)
+465. 8.11 [interv.05.06](./interv/interv.05.06/test.c)
