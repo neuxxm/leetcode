@@ -435,6 +435,7 @@
 - 6.2 [interv.01.06](./interv/interv.01.06/test.py)
 - 7.29 [interv.02.02](./interv/interv.02.02/test.py)
 - 7.21 [interv.03.02](./interv/interv.03.02/test.py)
+- 8.10 [interv.03.04](./interv/interv.03.04/test.py)
 - 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
 - 5.27 [interv.04.04](./problems/interv/interv.04.04/test.py)
 - 6.22,5.26 [interv.04.05](./interv/interv.04.05/test.up_down_bound.py) +3
@@ -948,3 +949,4 @@
 459. 8.10 [interv.10.05](./interv/interv.10.05/test.py)
 460. 8.10 [interv.05.07](./interv/interv.05.07/test.py)
 461. 8.10 [interv.05.03](./interv/interv.05.03/test.py)
+462. 8.10 [interv.03.04](./interv/interv.03.04/test.py)
