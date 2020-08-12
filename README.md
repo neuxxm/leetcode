@@ -335,7 +335,7 @@
 - 6.2 [1103](./problems1k/1103/test.py)
 - 5.24 [1104](./problems/1104/test.py)
 - 8.1 [1122](./problems1k/1122/test.py)
-- 6.16 [1137](./problems1k/1137/test.py)
+- 8.12,6.16 [1137](./problems1k/1137/test.py) +1
 - 8.11 [1143](./problems1k/1143/test.py)
 - 6.1 [1154](./problems1k/1154/test.py)
 - 7.25 [1161](./problems1k/1161/test.py)
@@ -399,8 +399,8 @@
 - 7.30 [1523](./problems1k/1523/test.py)
 - 7.30 [1528](./problems1k/1528/test.py)
 ---
-- 8.8 [5468](./contest/contest.0808.28biweek/5468/test.py)
-- 8.8 [5469](./contest/contest.0808.28biweek/5469/test.py)
+- 8.8 [5468](./contest/contest.0808.32biweek/5468/test.py)
+- 8.8 [5469](./contest/contest.0808.32biweek/5469/test.py)
 - 8.2 [5475](./contest/contest.0802.200week/5475/test.py)
 - 8.2 [5476](./contest/contest.0802.200week/5476/test.py)
 - 8.2 [5477](./contest/contest.0802.200week/5477/test.py)
@@ -615,7 +615,6 @@
 166. 6.15,6.5 [014](./problems/014/test.py)
 167. 6.16 [interv.40](./interv/interv.40/test.py)
 168. 6.16 [interv.59-I](./interv/interv.59-I/test.py)
-169. 6.16 [1137](./problems1k/1137/test.py)
 170. 6.16 [1232](./problems1k/1232/test.py)
 172. 6.16 [528](./problems/528/test.py)
 173. 6.16 [292](./problems/292/test.py)
@@ -938,8 +937,8 @@
 447. 8.8,5.23 [sword.33](./sword/sword.33/test.py) +1
 448. 8.8 [695](./problems/695/test.py)
 449. 8.8 [542](./problems/542/test.py)
-450. 8.8 [5468](./contest/contest.0808.28biweek/5468/test.py)
-451. 8.8 [5469](./contest/contest.0808.28biweek/5469/test.py)
+450. 8.8 [5468](./contest/contest.0808.32biweek/5468/test.py)
+451. 8.8 [5469](./contest/contest.0808.32biweek/5469/test.py)
 451. 8.9,6.30 [093](./problems/093/test.py)
 451. 8.9,5.23 [interv.04.09](./interv/interv.04.09/test.py)
 452. 8.9 [5483](./contest/contest.0809.201week/5483/test.py)
@@ -960,3 +959,4 @@
 466. 8.11 [1143](./problems1k/1143/test.py)
 467. 8.11 [1011](./problems1k/1011/test.py)
 467. 8.11,6.26 [746](./problems/746/test.py)
+467. 8.12,6.16 [1137](./problems1k/1137/test.py) +1
