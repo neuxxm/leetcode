@@ -32,6 +32,7 @@
 - 8.2,7.17,6.26,6.9 [035](./problems/035/test.py) +1
 - 6.14 [038](./problems/038/test.py)
 - 7.14 [040](./problems/040/test.py)
+- 8.13 [043](./problems/043/test.py)
 - 7.5 [044](./problems/044/test.py) +1
 - 6.2 [045](./problems/045/test.py)
 - 7.8 [048](./problems/048/test.py)
@@ -964,3 +965,4 @@
 467. 8.12,6.20 [303](./problems/303/test.bit.py) +2
 468. 8.12 [1218](./problems1k/1218/test.py)
 469. 8.12 [053](./problems/053/test.py)
+470. 8.13 [043](./problems/043/test.py)
