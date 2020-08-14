@@ -278,6 +278,7 @@
 - 8.14 [783](./problems/783/test.py)
 - 6.14 [784](./problems/784/test.py)
 - 7.16 [785](./problems/785/test.py) +1
+- 8.14 [788](./problems/788/test.py)
 ---
 - 7.20 [804](./problems/804/test.py)
 - 7.4 [812](./problems/812/test.py) +1
@@ -974,3 +975,4 @@
 472. 8.14 [836](./problems/836/test.py)
 473. 8.14 [interv.16.03](./interv/interv.16.03/test.py) +1
 474. 8.14 [783](./problems/783/test.py)
+475. 8.14 [788](./problems/788/test.py)
