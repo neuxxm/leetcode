@@ -1,10 +1,4 @@
-#11:12
-def f(x, y, b):
-    i1 = b[0]
-    j1 = b[1]
-    i2 = b[2]
-    j2 = b[3]
-	return x>i1 and x<i2 and y>j1 and y<j2
+#12:29fail
 class Solution(object):
     def isRectangleOverlap(self, rec1, rec2):
         """
@@ -12,9 +6,20 @@ class Solution(object):
         :type rec2: List[int]
         :rtype: bool
         """
-        a = rec1
-        x1 = a[0]
-        y1 = a[1]
-        x2 = a[2]
-        y2 = a[3]
-        return f(x1, y1, b) or f(x1,y2, b) or f(x2,y1,b) or f(x2,y2,b)
+        x1 = rec1[0]
+        y1 = rec1[1]
+        x2 = rec1[2]
+        y2 = rec1[3]
+        x3 = rec2[0]
+        y3 = rec2[1]
+        x4 = rec2[2]
+        y4 = rec2[3]
+        if x3 >= x2:
+            return False
+        if x4 <= x1:
+            return False
+        if y3 >= y2:
+            return False
+        if y4 <= y1:
+            return False
+        return True
