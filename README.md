@@ -499,6 +499,7 @@
 - 7.29 [sword.53-I](./sword/sword.53-I/test.py)
 - 7.29 [sword.58-I](./sword/sword.58-I/test.py)
 - 8.3 [sword.59-II](./sword/sword.59-II/test.py)
+- 8.14 [sword.66](./sword/sword.66/test.py)
 ---
 # 时间序
 1. 5.22 [105](./problems/105/test.py)
@@ -976,3 +977,4 @@
 473. 8.14 [interv.16.03](./interv/interv.16.03/test.py) +1
 474. 8.14 [783](./problems/783/test.py)
 475. 8.14 [788](./problems/788/test.py)
+476. 8.14 [sword.66](./sword/sword.66/test.py)
