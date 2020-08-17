@@ -4,18 +4,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#23:16-23:23
+#14:25-14:33
 def f(x, lvl, path, z):
-    path[lvl] = x.val
+    path[lvl] = chr(x.val + ord('a'))
     if x.left == None and x.right == None:
-        buf = ''
-        for i in xrange(lvl, -1, -1):
-            buf += chr(ord('a')+path[i])
-        if z[0] != '':
-            if buf < z[0]:
-                z[0] = buf
+        t = ''.join(path[:lvl+1][::-1])
+        if z[0] != None:
+            if t < z[0]:
+                z[0] = t
         else:
-            z[0] = buf
+            z[0] = t
         return
     if x.left:
         f(x.left, lvl+1, path, z)
@@ -29,7 +27,7 @@ class Solution(object):
         """
         if root == None:
             return ''
-        path = [0] * 8505
-        z = ['']
+        path = [None] * 8505
+        z = [None]
         f(root, 0, path, z)
         return z[0]
