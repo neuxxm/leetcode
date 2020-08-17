@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-#19:29-19:31
+#12:08-12:11
 def h(x):
     if x == None:
         return 0
@@ -12,11 +12,15 @@ def h(x):
 def f(x):
     if x == None:
         return True
-    l = h(x.left) + 1
-    r = h(x.right) + 1
+    if f(x.left) == False:
+        return False
+    if f(x.right) == False:
+        return False
+    l = h(x.left)
+    r = h(x.right)
     if abs(l-r) > 1:
         return False
-    return f(x.left) and f(x.right)
+    return True
 class Solution(object):
     def isBalanced(self, root):
         """
