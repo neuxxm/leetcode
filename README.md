@@ -424,7 +424,7 @@
 - 5.28 [interv.32-I](./problems/interv/interv.32-I/test.py)
 - 5.27 [interv.32-II](./problems/interv/interv.32-II/test.py)
 - 5.28 [interv.32-III](./problems/interv/interv.32-III/test.py)
-- 5.28 [interv.34](./problems/interv/interv.34/test.py)
+- 8.21,5.28 [sword.34](./sword/sword.34/test.py) +1
 - 6.16 [interv.40](./interv/interv.40/test.py)
 - 6.9 [interv.46](./interv/interv.46/test.py)
 - 6.1 [interv.51](./problems/interv/interv.51/test.bit.py) +2
@@ -532,7 +532,6 @@
 57. 5.27 [515](./problems/515/test.py)
 62. 5.27 [637](./problems/637/test.py)
 64. 5.28 [513](./problems/513/test.py)
-66. 5.28 [interv.34](./problems/interv/interv.34/test.py)
 67. 5.28 [interv.68-II](./problems/interv/interv.68-II/test.py)
 69. 5.28 [interv.32-I](./problems/interv/interv.32-I/test.py)
 70. 5.28 [interv.04.02](./problems/interv/interv.04.02/test.py)
@@ -978,3 +977,4 @@
 476. 8.17,7.26,5.24 [110](./problems/110/test.py) +1
 476. 8.17,5.27 [988](./problems/988/test.py) +1
 476. 8.21,5.27 [111](./problems/111/test.py) +1
+476. 8.21,5.28 [sword.34](./sword/sword.34/test.py) +1
