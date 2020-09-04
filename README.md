@@ -144,7 +144,7 @@
 - 7.5 [237](./problems/237/test.py) +1
 - 6.23 [240](./problems/240/test.py)
 - 7.15,6.23 [241](./problems/241/test.py)
-- 7.27,5.27 [257](./problems/257/test.py) +1
+- 9.4,7.27,5.27 [257](./problems/257/test.py) +1
 - 6.6 [258](./problems/258/test.py)
 - 7.5 [263](./problems/263/test.py)
 - 6.26 [268](./problems/268/test.py)
@@ -817,7 +817,6 @@
 352. 7.27,5.27 [113](./problems/113/test.py) +1
 353. 7.27 [437](./problems/437/test.py)
 353. 7.27,5.27 [129](./problems/129/test.py) +1
-353. 7.27,5.27 [257](./problems/257/test.py) +1
 354. 7.27 [236](./problems/236/test.py)
 354. 7.27,7.6 [235](./problems/235/test.py)
 355. 7.27 [392](./problems/392/test.py)
@@ -982,3 +981,4 @@
 476. 8.21,5.28 [sword.34](./sword/sword.34/test.py) +1
 477. 8.23 [5495](./contest/contest.0823.203week/5495/test.py)
 478. 8.23 [5496](./contest/contest.0823.203week/5496/test.py)
+479. 9.4,7.27,5.27 [257](./problems/257/test.py) +1
