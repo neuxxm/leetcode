@@ -222,6 +222,7 @@
 - 7.30 [541](./problems/541/test.py)
 - 8.8 [542](./problems/542/test.py)
 - 7.28,6.26 [543](./problems/543/test.py)
+- 21.1.7 [547](./problems/547/test.bfs.py)
 - 7.30 [551](./problems/551/test.py)
 - 6.30 [557](./problems/557/test.py)
 - 7.22 [560](./problems/560/test.py)
@@ -982,3 +983,4 @@
 477. 8.23 [5495](./contest/contest.0823.203week/5495/test.py)
 478. 8.23 [5496](./contest/contest.0823.203week/5496/test.py)
 479. 9.4,7.27,5.27 [257](./problems/257/test.py) +1
+480. 21.1.7 [547](./problems/547/test.bfs.py)
